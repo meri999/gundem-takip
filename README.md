@@ -16,12 +16,11 @@ Sekme yoktur. Sayfanın üstündeki butonlar tek gezinme aracıdır, her şey se
 | Buton | Gösterdiği |
 |---|---|
 | Haftalık gündem | Toplantıdan önce 5 dakikada okunacak özet: yayın fırsatları (en çok 3), konu başına özet, beklenen yön ve o konunun Meclis bilgisi (Genel Kurul, komisyonlar, Meclisten yansıyan haberler), 14 günlük takvim, geçmiş haberler. Word notu olarak indirilir |
-| Gelecek gündem | Bilinen yaklaşan gelişmeler (30 gün) ve önümüzdeki 1 ayın tahmini gündemi. Tahmin, takvimdeki gelişmeleri (gelecek) ve son haftada haberlerde yükselen ifadeleri (geçmiş) birleştirir |
 | Kuruluş yayınları | IMF (WEO, GFSR, Fiscal Monitor, çalışma kâğıtları), ILO, Dünya Bankası ve Deloitte yayınları, konu başlıkları altında; son 30 gün, ana raporlar 90 gün. Kuruluş seçicisi vardır |
 | Think-tank yayınları | Toplum, aile, demografi, yaşlanma, gençlik, eğitim, istihdam ve emek odaklı 18 kurumun son 14 günlük yayınları, konu başlıkları altında listelenir (güvenlik, dış politika, iklim ve siyaset dışarıda). Haftalık gündemin en altında da yer alır |
 | Köşe yazısı | Gazete köşesi için konu önerileri (600-800 kelime, tek güncel kanca, jargonsuz). `data/kose_yazisi_onerileri.json` |
 | Takvim | 3 aylık ay yaprağı takvim (özel günler, zirveler, faiz kararları, Meclis, TÜİK), her gelişme madde işaretiyle gün gün sıralı, konuya göre süzülebilir. TÜİK yayın listesi |
-| Toplum, Aile, Demografi, Yaşlılık, Gençlik ve eğitim, Ekonomi ve refah, Sağlık, Yapay zekâ ve teknoloji, Dünya ve güvenlik | O konunun sayfası: son haberler, Meclisten yansıyan haberler, yaklaşanlar, geçmiş haberler |
+| Toplum ve aile, Demografi, Sağlık, Yapay zekâ ve teknoloji, Gençlik ve eğitim, Emek piyasası, Dış ticaret ve döviz piyasası, Makroekonomi, Kalkınma | O konunun sayfası: son haberler, Meclisten yansıyan haberler, yaklaşanlar, geçmiş haberler |
 
 Alt konu seçimi yoktur. Kategoriler `gundem/config.py` içindeki `KATEGORILER` sözlüğünde tanımlıdır.
 
@@ -63,8 +62,5 @@ Google Haberler yakın günler için çok daha fazla sonuç verdiğinden ham hab
 ## Yol haritası
 X API, TBMM tutanak ve soru önergesi metinleri, konu modeli (BERTopic), günlük özet, dini günler (Diyanet takvimiyle doğrulanınca).
 
-
-## Tahmini gündem nasıl hesaplanır
-`gundem/ozet.py` içindeki `GELECEK_KURALLARI` listesi açıktır. Her kural, takvimde belirli bir gelişme yaklaştığında (örneğin "Tüketici Fiyat Endeksi" yayını) hangi tartışmanın beklendiğini söyler. Haberlerde son hafta belirgin yükselen somut ifadeler (örneğin "emekli maaşı") kuralı güçlendirir, hiçbir kurala girmeyenler tek başına aday sayılır. Kural eklemek ya da değiştirmek için bu listeyi düzenleyin.
 
 Geliştirici: Meryem Türel, 2026

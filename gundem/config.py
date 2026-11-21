@@ -37,11 +37,13 @@ SPOR = ["!süper lig", "!transfer", "!şampiyonlar", "!maçı", "!teknik direkt�
 
 TOPICS = {
     # --- Ekonomi ve refah ---
-    "Ekonomi ve enflasyon": ["enflasyon", "faiz", "merkez bankası", "=dolar", "bütçe", "tüfe", "=zam",
+    "Ekonomi ve enflasyon": ["enflasyon", "faiz", "merkez bankası", "bütçe", "tüfe", "=zam",
                              "=zammı", "=zamlar", "ekonomi", "inflation", "interest rate", "=gdp", "büyüme",
-                             "cari açık", "orta vadeli program", "hasıla", "fiyat endeks", "güven endeks",
-                             "reel getiri", "sanayi üretim", "petrol fiyat", "brent", "ham petrol", "döviz kuru", "kur hareket",
-                             "=euro", "=altın", "borsa", "politika faiz", "faiz karar"],
+                             "orta vadeli program", "hasıla", "fiyat endeks", "güven endeks",
+                             "reel getiri", "sanayi üretim", "politika faiz", "faiz karar", "vergi", "kamu borç"],
+    "Döviz ve dış denge": ["=dolar", "=euro", "döviz kuru", "kur hareket", "=altın", "borsa", "cari açık",
+                           "petrol fiyat", "brent", "ham petrol", "rezerv", "dış borç", "=cds", "ödemeler dengesi",
+                           "exchange rate", "current account", "=lira", "türk lirası"],
     "Yaşam maliyeti ve gelir": ["geçim", "hayat pahalılığı", "yaşam maliyeti", "gıda fiyat", "kira artış",
                                "asgari ücret", "gelir dağılımı", "cost of living", "alım gücü", "harcama"],
     "Yoksulluk ve sosyal koruma": ["yoksulluk", "sosyal yardım", "sosyal koruma", "eşitsizlik", "poverty",
@@ -52,8 +54,10 @@ TOPICS = {
     "Kalkınma": ["kalkınma", "development goals", "sdg", "sürdürülebilir kalkınma", "bölgesel gelişme",
                  "kalkınma planı", "unctad", "undp", "dünya bankası", "world bank"],
     "İstihdam ve çalışma hayatı": ["istihdam", "işsizlik", "işgücü", "kayıt dışı", "esnek çalış", "uzaktan çalış",
-                                   "emek", "sendika", "kıdem tazminat", "ücretli çalışan", "labour",
-                                   "unemployment", "employment", "işçi"],
+                                   "=emek", "emek piyasa", "emek gücü", "sendika", "kıdem tazminat", "ücretli çalışan", "labour",
+                                   "unemployment", "employment", "işçi", "ücret", "!ücretsiz", "asgari ücret",
+                                   "toplu sözleşme", "işgücüne katılım", "=neet", "platform çalış", "iş gücü",
+                                   "mesai", "çalışma saat", "iş kaybı", "işten çıkar"],
     "Konut ve kent": ["konut", "kira", "kentsel dönüşüm", "kentleşme", "housing", "mahalle", "belediye"],
     # --- Aile, nüfus, yaşam döngüsü ---
     "Nüfus ve doğurganlık": ["nüfus", "doğurganlık", "doğum oran", "doğum sayı", "doğum istatistik",
@@ -113,35 +117,23 @@ TOPICS = {
 
 # Site gezinmesindeki konu butonları: kategori -> TOPICS adları (bir konu birden çok kategoride olabilir)
 KATEGORILER = {
-    "Toplum": ["Kadın ve toplumsal cinsiyet", "Engellilik", "Yoksulluk ve sosyal koruma", "Değerler ve kültür",
-               "Bağımlılık ve suç", "Göç ve mülteciler", "Dijital hayat ve sosyal medya"],
-    "Aile": ["Aile ve evlilik", "Çocuk ve çocuk koruma"],
-    "Demografi": ["Nüfus ve doğurganlık", "Göç ve mülteciler"],
-    "Yaşlılık": ["Yaşlılık ve bakım", "Emeklilik ve sosyal güvenlik"],
-    "Gençlik ve eğitim": ["Gençlik", "Eğitim"],
-    "Ekonomi ve refah": ["Ekonomi ve enflasyon", "Yaşam maliyeti ve gelir", "İstihdam ve çalışma hayatı",
-                         "Konut ve kent", "Kalkınma", "Emeklilik ve sosyal güvenlik", "Yoksulluk ve sosyal koruma"],
-    "Sağlık": ["Sağlık ve ruh sağlığı", "Bağımlılık ve suç"],
+    "Toplum ve aile": ["Aile ve evlilik", "Çocuk ve çocuk koruma", "Kadın ve toplumsal cinsiyet", "Engellilik",
+                       "Yoksulluk ve sosyal koruma", "Değerler ve kültür", "Bağımlılık ve suç"],
+    "Demografi": ["Nüfus ve doğurganlık", "Göç ve mülteciler", "Yaşlılık ve bakım", "Emeklilik ve sosyal güvenlik"],
+    "Sağlık": ["Sağlık ve ruh sağlığı"],
     "Yapay zekâ ve teknoloji": ["Yapay zekâ", "Dijital hayat ve sosyal medya"],
-    "Dünya ve güvenlik": ["Dış politika ve güvenlik", "İklim ve afet", "Göç ve mülteciler"],
+    "Gençlik ve eğitim": ["Gençlik", "Eğitim"],
+    "Emek piyasası": ["İstihdam ve çalışma hayatı"],
+    "Dış ticaret ve döviz piyasası": ["Uluslararası ticaret", "Döviz ve dış denge"],
+    "Makroekonomi": ["Ekonomi ve enflasyon", "Yaşam maliyeti ve gelir"],
+    "Kalkınma": ["Kalkınma", "Konut ve kent", "Yoksulluk ve sosyal koruma"],
 }
 
-# Kuruluş yayınları sayfasının başlıkları: başlık -> TOPICS adları (sıra gösterim sırasıdır)
-KURULUS_KATEGORILERI = {
-    "Uluslararası ticaret": ["Uluslararası ticaret"],
-    "Emek piyasası": ["İstihdam ve çalışma hayatı"],
-    "Ekonomi ve refah": KATEGORILER["Ekonomi ve refah"],
-    "Toplum": KATEGORILER["Toplum"],
-    "Aile": KATEGORILER["Aile"],
-    "Demografi": KATEGORILER["Demografi"],
-    "Yaşlılık": KATEGORILER["Yaşlılık"],
-    "Gençlik ve eğitim": KATEGORILER["Gençlik ve eğitim"],
-    "Sağlık": KATEGORILER["Sağlık"],
-    "Yapay zekâ ve teknoloji": KATEGORILER["Yapay zekâ ve teknoloji"],
-}
+# Kuruluş yayınları sayfasının başlıkları: kategorilerle aynı
+KURULUS_KATEGORILERI = dict(KATEGORILER)
 # Bir yayın birden çok başlığa uyarsa en özgül olana yazılır
-KURULUS_ONCELIK = ["Uluslararası ticaret", "Demografi", "Yaşlılık", "Aile", "Gençlik ve eğitim", "Sağlık",
-                   "Yapay zekâ ve teknoloji", "Emek piyasası", "Ekonomi ve refah", "Toplum"]
+KURULUS_ONCELIK = ["Dış ticaret ve döviz piyasası", "Demografi", "Gençlik ve eğitim", "Sağlık",
+                   "Yapay zekâ ve teknoloji", "Emek piyasası", "Makroekonomi", "Kalkınma", "Toplum ve aile"]
 
 # Kayda değer bilgi taşımayan, her kayda yapışan konular (olay etiketlerinden çıkarılır)
 GENEL_KONULAR = {"İstatistik ve araştırma", "Meclis ve mevzuat"}

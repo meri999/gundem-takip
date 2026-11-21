@@ -217,11 +217,10 @@ def hafta_ozeti(haber, events, bugun: date, kategoriler: dict, sabit=(), haric=(
 
 
 # ----------------------------------------------------------------------------- Think-tank
-TT_KONULARI = ["Toplum", "Aile", "Demografi", "Yaşlılık", "Gençlik ve eğitim", "Ekonomi ve refah", "Sağlık",
-               "Yapay zekâ ve teknoloji"]
+TT_KONULARI = list(KATEGORILER)
 # Bir yayın birden çok kategoriye uyarsa en özgül olana yazılır (tekrar olmasın)
-_TT_ONCELIK = ["Demografi", "Yaşlılık", "Aile", "Gençlik ve eğitim", "Sağlık", "Yapay zekâ ve teknoloji",
-               "Ekonomi ve refah", "Toplum"]
+_TT_ONCELIK = ["Demografi", "Gençlik ve eğitim", "Sağlık", "Yapay zekâ ve teknoloji", "Emek piyasası",
+               "Dış ticaret ve döviz piyasası", "Makroekonomi", "Kalkınma", "Toplum ve aile"]
 
 
 def thinktank_gruplari(df: pd.DataFrame) -> dict:
@@ -243,160 +242,6 @@ def kurulus_gruplari(df: pd.DataFrame) -> dict:
         if uyan:
             atama.setdefault(next(k for k in KURULUS_ONCELIK if k in uyan), []).append(r.Index)
     return {k: df.loc[atama[k]] for k in KURULUS_KATEGORILERI if k in atama}
-
-
-# ----------------------------------------------------------------------------- Gelecek gündem
-_TERIM_DURAK = set("""için gibi daha çok kadar sonra önce ancak olan oldu olarak olacak nasıl neden dakika flaş açıkladı
-açıklama açıklandı yeni göre haber haberi bugün yarın dünya türkiye gündem video canlı işte neler hakkında karşı ilk
-son büyük ikinci birinci ile ama için bakanı bakanlığı başkanı genel var yok mümkün ise bile olan oluyor yapıldı yaptı
-dedi etti edildi geldi gelen gidiyor hafta yıl yılı yılında ayı gün günü saat sonu tahmini dikkat düşük toplantısı milletvekili milletvekili parti partisi başkan
-tcmb hükümet cumhurbaşkanı kritik önemli açıklaması açıkladı canlı izle son durum kaç oldu mu mı mi
-ağır büyüyor""".split())
-_OLAY_DURAK = _TERIM_DURAK | set("""uluslararası günü istatistikleri istatistik endeksi endeksleri araştırması kullanım
-kasım aralık ocak şubat mart nisan mayıs haziran temmuz ağustos eylül ekim çeyrek dönemsel genel kurul görüşmeleri
-zirvesi dünya""".split())
-
-
-def _belirteclar(t: str, durak) -> list:
-    t = re.sub(r"[’'`]\w*", "", tr_lower(t))  # Gazze’deki -> gazze
-    return [w for w in re.findall(r"\w{4,}", t) if w not in durak and not w.isdigit()]
-
-
-def _gövde(w: str) -> str:
-    """Basit kök yaklaşımı: ilk 5 harf ('bütçe' ile 'bütçesi' eşleşsin)."""
-    return w[:5]
-
-
-def yaklasan_gelismeler(events, bugun: date, gun: int = 30) -> list[dict]:
-    """Önümüzdeki `gun` günün bilinen gelişmeleri (özel günler, zirveler, TÜİK yayınları, bütçe görüşmeleri)."""
-    ol = takvim.olaylari_topla(events, bugun, bugun + timedelta(days=gun))
-    return [{"tarih": d, "tur": tur_adi(e), "konu": ", ".join(kategoriler_of(",".join(k))), "olay": t, "topics": list(k)}
-            for d in sorted(ol) for c, e, t, k in ol[d]]
-
-
-def yukselen_terimler(haber: pd.DataFrame, bugun: date, n: int = 15) -> list[dict]:
-    """Son 7 günde önceki haftaya göre belirgin yükselen somut ikili ifadeler (ör. "emekli maaşı"), kapsama düzeltmeli.
-    Tekil sözcükler ("parti", "milletvekili") genel olduğu için alınmaz."""
-    base = olcum(haber[~haber["source"].str.startswith("arXiv")])
-    base = base[base["topics"] != ""]
-    kts = kapsama(haber)
-    son, onc, kaynak, kats, ince = {}, {}, {}, {}, {}
-    for r in base.itertuples():
-        d = r.day
-        if bugun - timedelta(days=7) <= d < bugun:
-            hedef = son
-        elif bugun - timedelta(days=14) <= d < bugun - timedelta(days=7):
-            hedef = onc
-        else:
-            continue
-        w = float(kts.get(d, 1.0))
-        tok = _belirteclar(r.title, _TERIM_DURAK)
-        for t in {f"{a} {b}" for a, b in zip(tok, tok[1:])}:
-            hedef[t] = hedef.get(t, 0.0) + w
-            if hedef is son:
-                kaynak.setdefault(t, set()).add(r.source)
-                for k in kategoriler_of(r.topics, 9):
-                    kats.setdefault(t, {}).setdefault(k, 0)
-                    kats[t][k] += 1
-                for k in r.topics.split(","):
-                    if k and k not in ("Meclis ve mevzuat", "İstatistik ve araştırma"):
-                        ince.setdefault(t, {}).setdefault(k, 0)
-                        ince[t][k] += 1
-    adaylar = []
-    for t, s_ in son.items():
-        o_ = onc.get(t, 0.0)
-        oran = (s_ + 1) / (o_ + 1)
-        if s_ >= 8 and len(kaynak.get(t, ())) >= 3 and oran >= 1.8:
-            kk = sorted(kats.get(t, {}).items(), key=lambda x: -x[1])
-            ii = sorted(ince.get(t, {}).items(), key=lambda x: -x[1])
-            adaylar.append({"terim": t, "son": round(s_), "onc": round(o_), "oran": oran, "skor": s_ * min(oran, 5),
-                            "kategoriler": [k for k, _ in kk[:2]], "ince": [k for k, _ in ii[:2]]})
-    adaylar.sort(key=lambda x: -x["skor"])
-    secilen = []
-    for a in adaylar:
-        # birbirinin içine geçen ikilileri (ortak sözcük) tekrar gösterme
-        parca = set(a["terim"].split())
-        if any(len(parca & set(x["terim"].split())) == 2 for x in secilen):
-            continue
-        secilen.append(a)
-        if len(secilen) == n:
-            break
-    return secilen
-
-
-# Takvimdeki bir gelişme yaklaştığında hangi tartışmanın beklendiğini söyleyen açık kurallar.
-# olay: takvim başlığında geçen ifadeler · gundem: beklenen tartışma · anahtar: geçmiş haberlerde bu beklentiyi
-# güçlendiren sözcük kökleri (ilk 5 harf). Kuralı değiştirmek ya da eklemek için bu listeyi düzenleyin.
-GELECEK_KURALLARI = [
-    {"olay": ["tüketici fiyat endeksi"], "gundem": "Enflasyon rakamı ve emekli-memur zammı hesapları",
-     "konu": "Ekonomi ve refah, Yaşlılık", "anahtar": ["enfla", "emekl", "zam", "maaş", "refah"]},
-    {"olay": ["işgücü istatistikleri"], "gundem": "İşsizlik ve genç işsizliği tartışması",
-     "konu": "Gençlik ve eğitim, Ekonomi ve refah", "anahtar": ["işsiz", "genç", "istih", "işgüc", "neet"]},
-    {"olay": ["yoksulluk ve yaşam"], "gundem": "Yoksulluk oranı ve gelir dağılımı tartışması",
-     "konu": "Toplum, Ekonomi ve refah", "anahtar": ["yoksu", "gelir", "açlık", "eşits"]},
-    {"olay": ["bütçe görüşmeleri"], "gundem": "2027 bütçesi ve sosyal politikalara ayrılan pay",
-     "konu": "Ekonomi ve refah, Aile", "anahtar": ["bütçe", "komis", "vergi"]},
-    {"olay": ["çocuklarda bilişim", "çocuk hakları"], "gundem": "Çocukların ekran, internet ve sosyal medya kullanımı",
-     "konu": "Aile", "anahtar": ["çocuk", "sosya", "medya", "ekran", "yasak", "dijit"]},
-    {"olay": ["kadına yönelik şiddet"], "gundem": "Kadına yönelik şiddet, sığınak ve yasal düzenleme",
-     "konu": "Toplum", "anahtar": ["kadın", "şidde", "sığın"]},
-    {"olay": ["engelliler günü"], "gundem": "Erişilebilirlik ve engelli istihdamı",
-     "konu": "Toplum", "anahtar": ["engel", "erişi"]},
-    {"olay": ["cop31"], "gundem": "COP31 sonuçları ve iklim finansmanı",
-     "konu": "Dünya ve güvenlik", "anahtar": ["cop31", "iklim", "finan"]},
-    {"olay": ["faiz kararı"], "gundem": "Faiz kararları ve enflasyon beklentisi",
-     "konu": "Ekonomi ve refah", "anahtar": ["faiz", "enfla", "merke"]},
-    {"olay": ["öğretmenler günü"], "gundem": "Öğretmenlerin mesleki durumu ve atama tartışması",
-     "konu": "Gençlik ve eğitim", "anahtar": ["öğret", "atama", "mesle"]},
-    {"olay": ["dünya aids"], "gundem": "HIV/AIDS ve halk sağlığı",
-     "konu": "Sağlık", "anahtar": ["aids", "hiv"]},
-]
-
-
-def tahmini_gundem(haber, events, bugun: date, gun: int = 30, n: int = 10) -> list[dict]:
-    """Önümüzdeki `gun` günün tahmini gündemi: geçmiş ile gelecek birlikte değerlendirilir.
-
-    Gelecek: takvimdeki bilinen bir gelişme yaklaşıyorsa (GELECEK_KURALLARI) ona bağlı tartışma beklenir.
-             Puan: 3 + yakınlık (7 gün içinde +2, 14 gün içinde +1).
-    Geçmiş:  son hafta belirgin yükselen ifadeler (yukselen_terimler) hem kuralları güçlendirir hem de, hiçbir
-             kuralla eşleşmezse, tek başına gündemde kalmaya aday sayılır. Puan: yükseliş oranı (en çok 5) +
-             hacim (en çok 3)."""
-    olaylar = yaklasan_gelismeler(events, bugun, gun)
-    terimler = yukselen_terimler(haber, bugun, 25)
-    kullanilan = set()
-    satirlar = []
-
-    for kural in GELECEK_KURALLARI:
-        eslesen = [o for o in olaylar if any(x in o["olay"].lower() for x in kural["olay"])]
-        if not eslesen:
-            continue
-        o = eslesen[0]
-        k = (o["tarih"] - bugun).days
-        puan = 3 + (2 if k <= 7 else 1 if k <= 14 else 0)
-        dayanak = [f"Takvim: {o['olay']} ({o['tarih']:%d.%m.%Y})"]
-        gecmis = [t for t in terimler if any(w[:5] in kural["anahtar"] for w in t["terim"].split())]
-        for i, t in enumerate(gecmis):
-            kullanilan.add(t["terim"])  # bu satırın içinde sayılır, ayrıca listelenmez
-            if i < 3:
-                puan += min(t["oran"], 5) / 2 + min(t["son"] / 15, 2)
-                dayanak.append(f"Haberlerde yükseliyor: “{t['terim']}” son 7 günde {t['son']} haber "
-                               f"(önceki hafta {t['onc']})")
-        satirlar.append({"gundem": kural["gundem"], "konu": kural["konu"], "dayanak": " · ".join(dayanak),
-                         "zaman": f"{o['tarih']:%d.%m.%Y} civarı", "puan": puan, "tur": "Takvim + haberler"
-                         if gecmis else "Takvim"})
-
-    for t in terimler:
-        if t["terim"] in kullanilan:
-            continue
-        puan = min(t["oran"], 5) + min(t["son"] / 15, 3)
-        satirlar.append({"gundem": tr_cumle(t["terim"]), "konu": ", ".join(t["kategoriler"]),
-                         "dayanak": f"Haberlerde yükseliyor: son 7 günde {t['son']} haber (önceki hafta {t['onc']})",
-                         "zaman": "Önümüzdeki 1-2 hafta", "puan": puan, "tur": "Haberler"})
-
-    satirlar.sort(key=lambda x: -x["puan"])
-    for x in satirlar:
-        x["seviye"] = "Güçlü" if x["puan"] >= 6 else "Orta"
-    return satirlar[:n]
 
 
 # ----------------------------------------------------------------------------- Word notu

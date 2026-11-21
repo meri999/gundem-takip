@@ -41,6 +41,16 @@ def get_kurulus():
     return load_thinktank(30, tablo="kurulus", koru=ANA_RAPOR)
 
 
+@st.cache_data(ttl=900)
+def get_thinktank_hafta():
+    return load_thinktank(7)
+
+
+@st.cache_data(ttl=900)
+def get_kurulus_hafta():
+    return load_thinktank(7, tablo="kurulus")
+
+
 items = get_items()
 if items.empty:
     st.warning("Veri bulunamadı. Lütfen yöneticiye bildirin.")
@@ -56,10 +66,10 @@ def has_topic(s, wanted):
 
 
 # ------------------------------------------------------------------ Üst butonlar: her şey bunların altında
-secim = st.pills("Konu", [HAFTALIK, "Gelecek gündem", "Takvim"] + list(KATEGORILER)
+secim = st.pills("Konu", [HAFTALIK, "Takvim"] + list(KATEGORILER)
                  + ["Think-tank yayınları", "Kuruluş yayınları", "Köşe yazısı"], default=HAFTALIK, selection_mode="single",
                  key="kat") or HAFTALIK
-AKTIF = [] if secim in (HAFTALIK, "Gelecek gündem", "Think-tank yayınları", "Kuruluş yayınları", "Köşe yazısı", "Takvim") else KATEGORILER[secim]
+AKTIF = [] if secim in (HAFTALIK, "Think-tank yayınları", "Kuruluş yayınları", "Köşe yazısı", "Takvim") else KATEGORILER[secim]
 
 
 def sec(df):
@@ -116,11 +126,8 @@ def gecmis_bolumu(anahtar: str):
     liste(d.sort_values("published", ascending=False), 30)
 
 
-def thinktank_goster(df, n: int = 40, ozet: bool = True, etiket: bool = True):
-    """Think-tank yayın listesi: kurum, başlık (bağlantı), tarih, isteğe bağlı kısa özet ve konu etiketi."""
-    if df.empty:
-        st.caption("Kayıt yok.")
-        return
+def yayin_satirlari(df, n: int = 40, ozet: bool = True, etiket: bool = True) -> str:
+    """Think-tank / kuruluş yayınlarını HTML satırları olarak üretir: kurum, başlık (bağlantı), tarih, isteğe bağlı özet."""
     out = []
     for r in df.head(n).itertuples():
         ozet_ = html.escape((r.ozet or "")[:200]) + ("…" if r.ozet and len(r.ozet) > 200 else "")
@@ -131,7 +138,15 @@ def thinktank_goster(df, n: int = 40, ozet: bool = True, etiket: bool = True):
                    f'<span class="hkaynak">· {r.day:%d.%m.%Y}</span>'
                    + (f'<div class="hkaynak" style="font-size:.88rem">{ozet_}</div>' if ozet and ozet_ else "")
                    + (f"<div>{et}</div>" if et else "") + "</div>")
-    st.markdown("".join(out), unsafe_allow_html=True)
+    return "".join(out)
+
+
+def thinktank_goster(df, n: int = 40, ozet: bool = True, etiket: bool = True):
+    """Think-tank yayın listesi."""
+    if df.empty:
+        st.caption("Kayıt yok.")
+        return
+    st.markdown(yayin_satirlari(df, n, ozet, etiket), unsafe_allow_html=True)
 
 
 def thinktank_konulara_gore(df, her_konuda: int = 3, ozet: bool = True, kolon: int = 2, kurulus: bool = False):
@@ -207,27 +222,6 @@ def oneri_sayfasi(dosya: str, baslik: str, olcut: str, kose: bool):
         st.markdown(k + "</div>", unsafe_allow_html=True)
 
 
-# ====================================================================== GELECEK GÜNDEM
-if secim == "Gelecek gündem":
-    st.subheader("Bilinen yaklaşan gelişmeler")
-    yak = ozet_mod.yaklasan_gelismeler(events, TODAY, 30)
-    if yak:
-        tablo(pd.DataFrame([{"Tarih": g["tarih"], "Tür": g["tur"], "Konu": g["konu"], "Gelişme": g["olay"]}
-                            for g in yak]))
-    else:
-        st.caption("Önümüzdeki 30 günde kayıtlı gelişme yok.")
-
-    st.subheader("Önümüzdeki 1 ayın tahmini gündemi")
-    tg = ozet_mod.tahmini_gundem(haber, events, TODAY, 30, 10)
-    if tg:
-        tablo(pd.DataFrame([{"Gündem": x["gundem"], "Zaman": x["zaman"], "Düzey": x["seviye"], "Konu": x["konu"],
-                             "Dayanak": x["dayanak"]} for x in tg]))
-    else:
-        st.caption("Tahmini gündem üretilemedi.")
-    st.caption("Tahmin, takvimdeki bilinen gelişmeleri (gelecek) ve son haftada haberlerde yükselen konuları (geçmiş) "
-               "birlikte değerlendirir. Kesin öngörü değil, yön göstergesidir.")
-    st.stop()
-
 # ====================================================================== THINK-TANK
 if secim == "Think-tank yayınları":
     st.subheader("Dünyadan think-tank yayınları")
@@ -297,54 +291,52 @@ if secim == "Takvim":
 # ====================================================================== HAFTALIK GÜNDEM
 if secim == HAFTALIK:
     oz = ozet_mod.hafta_ozeti(haber, events, TODAY, KATEGORILER, sabit=("Demografi",),
-                              haric=("Dünya ve güvenlik",))
+                              haric=())
     st.download_button("Word notu olarak indir", data=ozet_mod.docx_uret(oz, ozet_mod.son_guncelleme(), ""),
                        file_name=f"gundem_notu_{TODAY:%Y%m%d}.docx",
                        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document")
 
     st.subheader("Haftalık gündem")
-    if not oz["firsatlar"]:
-        st.caption("Bu hafta öne çıkan bir konu tespit edilmedi. Konu butonlarından tek tek bakabilirsiniz.")
+    tt7 = ozet_mod.thinktank_gruplari(get_thinktank_hafta())
+    kr7 = ozet_mod.kurulus_gruplari(get_kurulus_hafta())
 
     def haber_satiri(b):
         return (f'<div class="hb"><a href="{html.escape(b["link"])}" target="_blank">{html.escape(b["baslik"])}</a> '
                 f'<span class="hkaynak">· {html.escape(b["kaynak"])}</span></div>')
 
-    for f in oz["firsatlar"]:
-        k = f["detay"]
-        nedenler = "".join(f"<li>{html.escape(n)}</li>" for n in f["nedenler"])
-        kart = (f'<div class="firsat"><span class="puan">{f["seviye"]}</span>'
-                f'<div class="fb">{html.escape(f["kategori"])}</div>'
-                f'<ul>{nedenler}</ul>')
-        if k["basliklar"]:
-            kart += '<div class="alt">ÖNE ÇIKAN HABERLER</div>' + "".join(haber_satiri(b) for b in k["basliklar"])
-        if k["genel_kurul"] or k["komisyon"]:
+    for ad, topics in KATEGORILER.items():
+        bilgi = ozet_mod.yayin_firsatlari(haber, events, TODAY, {ad: topics}, n=1, min_puan=-1)[0]
+        guclu = bilgi["seviye"] in ("Güçlü", "Orta")
+        kart = '<div class="firsat">' + (f'<span class="puan">{bilgi["seviye"]}</span>' if guclu else "")
+        kart += f'<div class="fb">{html.escape(ad)}</div>'
+        if guclu:
+            kart += "<ul>" + "".join(f"<li>{html.escape(n)}</li>" for n in bilgi["nedenler"]) + "</ul>"
+        # yaklaşan olaylar (14 gün)
+        ol_k = takvim.olaylari_topla(events, TODAY, TODAY + timedelta(days=14), konular=topics)
+        yak = [(d, e, t) for d in sorted(ol_k) for c, e, t, k in ol_k[d]]
+        kart += '<div class="alt">YAKLAŞAN OLAYLAR (14 GÜN)</div>'
+        kart += "".join(f'<div class="hb">{d:%d.%m.%Y} · <b>{html.escape(ozet_mod.tur_adi(e))}</b> {html.escape(t)}</div>'
+                        for d, e, t in yak[:8]) or '<div class="hb hkaynak">Kayıtlı olay yok.</div>'
+        # son günlerde öne çıkan haberler
+        bas = ozet_mod._basliklar(haber, topics, TODAY, n=3, gun=3)
+        if bas:
+            kart += '<div class="alt">SON GÜNLERDE ÖNE ÇIKAN HABERLER</div>' + "".join(haber_satiri(b) for b in bas)
+        # Meclis
+        gk, kom = ozet_mod.meclis_kayitlari(events, TODAY, topics, n_gk=3, n_kom=3, gun_kom=7)
+        if gk or kom:
             kart += '<div class="alt">MECLİS</div>' + "".join(
-                f'<div class="hb">Genel Kurul: {html.escape(m[:200])}</div>' for m in k["genel_kurul"]) + "".join(
-                f'<div class="hb">{m["tarih"]:%d.%m.%Y} · {html.escape(m["baslik"])}</div>' for m in k["komisyon"])
-        if k["meclis_haberleri"]:
-            kart += '<div class="alt">MECLİSTEN YANSIYAN HABERLER</div>' + "".join(
-                haber_satiri(b) for b in k["meclis_haberleri"])
+                f'<div class="hb">Genel Kurul: {html.escape(m[:200])}</div>' for m in gk) + "".join(
+                f'<div class="hb">{m["tarih"]:%d.%m.%Y} · {html.escape(m["baslik"])}</div>' for m in kom)
+        mh = ozet_mod.meclis_yansimalari(haber, topics, TODAY)
+        if mh:
+            kart += '<div class="alt">MECLİSTEN YANSIYAN HABERLER</div>' + "".join(haber_satiri(b) for b in mh)
+        # son bir haftanın kuruluş ve think-tank yayınları
+        if ad in kr7:
+            kart += '<div class="alt">KURULUŞ YAYINLARI (SON 7 GÜN)</div>' + yayin_satirlari(kr7[ad], 4, ozet=False, etiket=False)
+        if ad in tt7:
+            kart += '<div class="alt">THINK-TANK YAYINLARI (SON 7 GÜN)</div>' + yayin_satirlari(tt7[ad], 4, ozet=False, etiket=False)
         st.markdown(kart + "</div>", unsafe_allow_html=True)
-    if oz["firsatlar"]:
-        st.caption("Düzey; haber yoğunluğu, yaklaşan özel gün, TÜİK yayını ve Meclis gündemine göre hesaplanır. "
-                   "Karar için gerekçeleri okuyun. Diğer konular için üstteki butonları kullanın.")
-
-    st.subheader("Önümüzdeki 14 gün")
-    if oz["takvim"]:
-        tablo(pd.DataFrame([{"Tarih": t["tarih"], "Tür": t["tur"], "Konu": t["konu"], "Olay": t["olay"]}
-                            for t in oz["takvim"]]))
-    else:
-        st.caption("Kayıtlı olay yok.")
     gecmis_bolumu("hafta")
-
-    st.subheader("Dünyadan think-tank yayınları")
-    tt = get_thinktank()
-    if tt.empty:
-        st.caption("Think-tank verisi şu an yok.")
-    else:
-        st.caption("Son 14 gün · toplum, aile, demografi, istihdam ve emek odaklı kurumlar · başlıklar özgün dilde")
-        thinktank_konulara_gore(tt, her_konuda=2, ozet=False)
     st.stop()
 
 # ====================================================================== KONU SAYFASI
