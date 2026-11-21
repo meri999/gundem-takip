@@ -63,4 +63,7 @@ Google Haberler yakın günler için çok daha fazla sonuç verdiğinden ham hab
 X API, TBMM tutanak ve soru önergesi metinleri, konu modeli (BERTopic), günlük özet, dini günler (Diyanet takvimiyle doğrulanınca).
 
 
+## Haber kaynakları
+Panelde yalnızca `gundem/config.py` içindeki `HABER_KAYNAKLARI` listesindeki kaynaklardan (ajanslar, ulusal gazete ve televizyonlar, ekonomi medyası, uluslararası yayınlar, resmî kurumlar) gelen haberler görünür. Yerel siteler, spor ve kulüp siteleri, parti ve belediye siteleri ve yabancı dilli kaynaklar veritabanına girer ama panele çıkmaz. Yeni kaynak eklemek için listeyi düzenleyin.
+
 Geliştirici: Meryem Türel, 2026

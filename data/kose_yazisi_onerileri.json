@@ -1,320 +1,570 @@
 {
- "hazirlanma": "2026-11-19",
+ "hazirlanma": "2026-11-21",
  "oneriler": [
   {
-   "kategori": "Toplum",
-   "baslik": "İklim Zirvesinde Engelli Bireyin Yeri",
-   "tez": "İklim kararları, sıcak hava ve sel gibi durumlarda engelli ve bakıma muhtaç kişilerin nasıl korunacağını sormadan eksik kalır; Antalya’daki zirvede dile gelen bu çağrı yerel afet ve bakım planlarına yazılmalı.",
-   "kanca": "COP31 20 Kasım’da sona eriyor ve zirvede engelli bireylerin iklim politikalarındaki yeri tartışıldı.",
-   "acilis": "Zirve alanında hizmet veren Down Kafe’den başlayabilirsiniz (CNN Türk, 19 Kasım).",
+   "kategori": "Makroekonomi",
+   "baslik": "Merkez Bankası Rezervleri ve Döviz Piyasasının Hassas Dengesi",
+   "tez": "Rezerv düşüşü tek başına bir alarm değildir; hangi nedenle, ne kadar sürede ve hangi göstergelerle birlikte düştüğüne bakılarak okunur. Okur için asıl soru, rezervin ne işe yaradığıdır.",
+   "kanca": "Merkez Bankası rezervlerinin 2 milyar dolar azaldığı haberi çıktı; önümüzde Fed kararı ve yeni enflasyon verisi var.",
+   "acilis": "Rezervi evin acil durum tasarrufuna benzetip 'kaç ay idare eder' sorusundan başlayın.",
+   "zaman": "Bu hafta; TÜFE açıklanmadan (3 Aralık) önce",
    "gundem": [
     {
      "tur": "haber",
-     "metin": "Kasapoğlu: Engelli bireyler iklim politikalarının odağında olmalı",
-     "kaynak": "Hürriyet Gündem",
-     "tarih": "2026-11-19",
-     "link": "https://www.hurriyet.com.tr/gundem/kasapoglu-engelli-bireyler-iklim-politikalarinin-odaginda-olmali-43383661"
-    },
-    {
-     "tur": "haber",
-     "metin": "COP31'de Down Kafe hizmet veriyor! Kasapoğlu: \"Çalışmada engelli bireyler öncelikli\"",
-     "kaynak": "CNN Türk",
-     "tarih": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTjdfOGhXNUl0aEo0aUpfZk9ST2JMbmJ2WTZpUTd2Nmgzd1JHakJxRHRJaENhUmY3ZnNsSENqdFdPRTY3bFZIQUtsV0diZElWb0lzOWc5VERNdlc0Rjg2aTlkaC1vSEloTEtadjh1T0Y0VTNwVFd5U3Y2akR1c2cwazhRQi04QUxHTDN3V3lXSERzVUViZTN2TDVuQWNVa0NOYVVlejhaRWNnX1Zyc095REdQbDV6eEhHamMyWXZmcFlFdjA?oc=5"
+     "metin": "Merkez Bankası rezervleri 2 milyar dolar azaldı",
+     "kaynak": "Türkiye Gazetesi",
+     "tarih": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZndtTU8zeXRwUVlST05PSm5zVjlPZDIwdmdkbzZNaXMtSHlfc29jSXlBUHpLZDBabEdzLTBiNzJ6Vy15cUNuQzA2Wk51UXJFV2VLRU9FRHNlcC1LQ2NLSkYwU0NVWHZTbGRFOG9oVlJ6MFBRZ1E5dWRlLVRCMXRfYzVOUy1COUY3V1Jsd0g0MDh4NjZhZmJwNDE1N0RRXzg?oc=5"
     },
     {
      "tur": "tarih",
-     "metin": "COP31 BM İklim Zirvesi, Antalya sona eriyor",
-     "tarih": "2026-11-20"
+     "metin": "ABD Merkez Bankası (Fed) faiz kararı (toplantı 8-9 Aralık)",
+     "tarih": "2026-12-09"
+    },
+    {
+     "tur": "tarih",
+     "metin": "Tüketici Fiyat Endeksi (TÜFE), Kasım 2026",
+     "tarih": "2026-12-03"
     }
    ],
    "rakam": [
-    "Türkiye’deki engelli nüfusu (TÜİK ya da Aile ve Sosyal Hizmetler Bakanlığı kayıtları)",
-    "Yerel afet planlarında engelli bireylere ayrılan bölüm (AFAD ya da belediye planı)"
+    "Haberdeki 2 milyar dolarlık düşüş (haberden alın, hangi haftaya ait olduğunu yazın)",
+    "Toplam rezervin ithalatın kaç ayına yettiği (TCMB haftalık verisinden hesaplayın, yazmadan önce teyit edin)"
    ],
-   "dikkat": "Konuşmacıların sözlerini haber metninden değil, zirvenin resmî kayıtlarından doğrulayın.",
-   "zaman": "20 Kasım’da zirve biterken ya da hemen ertesinde"
+   "dikkat": "Rezerv düşüşünü tek nedene bağlamayın; haftalık verinin altın fiyatı ve kur değişimlerinden etkilendiğini not edin. Piyasa tahmini vermeyin.",
+   "atif_gerekli": [
+    "TCMB haftalık rezerv tablosu (resmî veri)",
+    "Rezerv yeterliliği üzerine bir akademik ya da IMF çalışması"
+   ],
+   "atif": []
   },
   {
-   "kategori": "Aile",
-   "baslik": "Çocuğun Dijital Dünyasında Aileye ve Okula Düşen Eşlik",
-   "tez": "Yaş sınırı gibi düzenlemeler, aile, okul ve çocuğun kendisine eşlik edecek bir planla birlikte daha iyi sonuç verebilir.",
-   "kanca": "Dünya Çocuk Hakları Günü’nde (20 Kasım) sosyal medya sınırlaması tartışması ve TÜİK’in çocuklarda bilişim kullanımı verisi aynı güne denk geliyor.",
+   "kategori": "Makroekonomi",
+   "baslik": "Aralık’ta Açıklanacak Enflasyon Rakamı Neyi Belirleyecek?",
+   "tez": "Kasım enflasyonu yalnızca bir fiyat verisi değildir; emekli ve memur zammı ile asgari ücret beklentilerinin üzerine kurulduğu zemindir. Okur rakamı görünce hangi soruları sormalı?",
+   "kanca": "TÜFE 3 Aralık’ta açıklanıyor; aynı günlerde 2027 asgari ücret ve emekli zammı tartışmaları sürüyor, AB Türkiye’nin enflasyon tahminini yükseltti.",
+   "acilis": "Rakam açıklanmadan önce evde kimlerin hangi zamma baktığını sayarak başlayın.",
+   "zaman": "2-3 Aralık",
    "gundem": [
     {
-     "tur": "tarih",
-     "metin": "TÜİK Çocuklarda Bilişim Teknolojileri Kullanım Araştırması (2026) yayımlanıyor",
-     "tarih": "2026-11-20"
+     "tur": "haber",
+     "metin": "AB, Türkiye’nin enflasyon tahminini yükseltti",
+     "kaynak": "Habertürk",
+     "tarih": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT3lQUkZCRHVpUkk2bDZMNkFRSHhUZnh6NEdyQVF0NmtSeHJyZktMMG11Sjl0ekVsblQ2LWI2Mzc2NTdvSDN6ZkRTb0RHb01sUjUwNzl6RXRRTm5DNld3cE55QlRidjlOVWREamxfN1RsZ0o2YUNoc3A4Q3BORklucGFLaWJ0SVVuVkZvSW9B?oc=5"
+    },
+    {
+     "tur": "haber",
+     "metin": "Emekli maaşlarına refah payı sürprizi! Prim gününe göre yeni formül",
+     "kaynak": "CNN Türk Finans",
+     "tarih": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZDUySmVGQXBMeUJ3ak9uMVhNTHBXcDJSb094MzV4aWV3V0xFNGM5T0dJa3dxTlNfdjNhM2lpWHYwZFlPelJWNkc1MGxtZ2wwVmwxN2lyMmR1STQ4bkN0NTZGM3NLakxaME1vWmNLQXZBVWd1LU4wZ3B2YVBIdUN1MGthajk4SHY0eWRKdi02RjBUaHVFT3Z5NHRjQjlLMTBaalAzbkpyWDl5czNFeXRKeWJlbGM2SDQwOFE?oc=5"
     },
     {
      "tur": "tarih",
-     "metin": "Dünya Çocuk Hakları Günü",
-     "tarih": "2026-11-20"
+     "metin": "Tüketici Fiyat Endeksi (TÜFE), Kasım 2026",
+     "tarih": "2026-12-03"
+    },
+    {
+     "tur": "yayin",
+     "metin": "A Quarter Century of Inflation Targeting in Latin America: Progress, Challenges, and the Road Ahead",
+     "kaynak": "IMF",
+     "tarih": "2026-11-18",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSG9VWUtVZV9KUWdjQy1TX0daZFpzOFFoQnBadkd6eWlPbHg0OWpVTk4tQmN1RmZDWUtoOVVkUjZPbUFRV1B0ZVJGYWpUc0tEUVBkSG5SVm9NenM5OEswMFl3RDQ4MkhJWS1kSGg4TzNHdVVNWUwyR2xJQzJac2FQT3FnRnNPbEJLYTR2RV9qamxEazFWR1ZTVnYxZmVKOHdocldnU1Y5Zw?oc=5"
     }
    ],
    "rakam": [
-    "TÜİK araştırmasından çocukların internet ya da sosyal medya kullanım oranı (yayımlanınca tek rakam)"
+    "Son TÜFE yıllık değişimi (TÜİK bülteninden)",
+    "AB’nin yükselttiği tahmin rakamı (haberdeki kaynaktan teyit edin)"
    ],
-   "dikkat": "Konuyu tek bir ülke ya da parti tartışmasına çevirmeyin; çocuğun gündelik hayatından bir örnekle açın.",
-   "zaman": "20 Kasım’dan sonraki hafta",
+   "dikkat": "Zam oranı tahmini yazmayın; yalnızca resmî veri ve açıklanmış beklentileri aktarın.",
    "atif": [
     {
-     "baslik": "The association between adolescent well-being and digital technology use (Orben, Przybylski)",
-     "kurum": "Nature Human Behaviour",
-     "tur": "akademik",
-     "link": "https://doi.org/10.1038/s41562-018-0506-1",
-     "yil": 2019
+     "baslik": "A Quarter Century of Inflation Targeting in Latin America: Progress, Challenges, and the Road Ahead",
+     "kurum": "IMF",
+     "tur": "uluslararası kuruluş",
+     "yil": 2026,
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSG9VWUtVZV9KUWdjQy1TX0daZFpzOFFoQnBadkd6eWlPbHg0OWpVTk4tQmN1RmZDWUtoOVVkUjZPbUFRV1B0ZVJGYWpUc0tEUVBkSG5SVm9NenM5OEswMFl3RDQ4MkhJWS1kSGg4TzNHdVVNWUwyR2xJQzJac2FQT3FnRnNPbEJLYTR2RV9qamxEazFWR1ZTVnYxZmVKOHdocldnU1Y5Zw?oc=5"
+    }
+   ],
+   "atif_gerekli": [
+    "TÜİK Tüketici Fiyat Endeksi bülteni (Kasım 2026, 3 Aralık)"
+   ]
+  },
+  {
+   "kategori": "Emek piyasası",
+   "baslik": "2027 Asgari Ücretini Konuşurken Hangi Soruları Sormalı?",
+   "tez": "Asgari ücret zammı tartışması çoğunlukla 'yüzde kaç' sorusuna sıkışıyor. Oysa asıl belirleyici, kaç kişinin bu ücretle çalıştığı ve zammın işverene, fiyatlara ve kayıt dışılığa nasıl yansıdığıdır.",
+   "kanca": "Asgari Ücret Tespit Komisyonu’nun toplanma tarihi bekleniyor; basında üç farklı senaryo dolaşıyor.",
+   "acilis": "Aynı ücreti alan üç farklı çalışanın (genç, ev kadını, esnaf çırağı) gündelik hesabıyla açın.",
+   "zaman": "Komisyon toplanmadan önce; 30 Kasım İşgücü İstatistikleri ile birlikte",
+   "gundem": [
+    {
+     "tur": "haber",
+     "metin": "Asgari Ücret Tespit Komisyonu toplantıları ne zaman? 2027 Asgari ücret ne kadar olacak?",
+     "kaynak": "Cumhuriyet",
+     "tarih": "2026-11-17",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQczR2U1dkaXNwX0dPTndrelFnclZnRjAtN0R0ZnJPQ3UwSkU5bnI1R3FhSGxzeWZhbWR1SVN2aVdNSE9sN3V3QTQ1bHl4Z0U2bVUwbGlzMXk5Q1dhMFQ0V0pTbVhxMmpmTi12cHlwOWJkTEdrVG9KT1dYcUpJd1N3ZHYzX2k0YzVRdmRpLWxCenUtZGZYX1g0N0ZtRExDRDd6b0U4V2gwN0pPRm1wcXhHZFh1dHRZdzlMaDlBVDNDTjJ1c203SjhtTXN5aw?oc=5"
     },
     {
-     "baslik": "Guidance on AI and children (3.0)",
-     "kurum": "UNICEF",
-     "tur": "uluslararası kuruluş",
-     "link": "https://www.unicef.org/innocenti/reports/policy-guidance-ai-children",
-     "yil": 2025
+     "tur": "haber",
+     "metin": "ASGARİ ÜCRET ZAMMI 2027: Yeni ücret zammı için 4 farklı senaryo! 2027 asgari ücret ne kadar olacak?",
+     "kaynak": "İstanbul Ticaret Gazetesi",
+     "tarih": "2026-11-10",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaU9waUlybHdRd084S2NWYXJKR3dCX3dLNDN1aGFoeGlEREpXY3ZEVktOcDZ5VUlid3VxY05KVkNtajA3SUVpVHlpLUdMdC11d1ZzWmo2RDRMZTJmdGF5R0tEcTFheEZxNm5ic19sNlQxYXB0ekRubnA0ZzZZRzVGQVZCOWVENWpqMHBIRWhhUXRfUnl0dUlzbWZ0NWgycm1OMDV4eFRfYjZtY2JsajlMVUc0Ql95Yzh1WklobExZdjhzYmlSV3h5VUFLX3o?oc=5"
+    },
+    {
+     "tur": "haber",
+     "metin": "SGK uzmanından 2027 asgari ücret hesabı: Zam oranı ne olacak?",
+     "kaynak": "Aydınlık",
+     "tarih": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnJCVmFZWXJKem8zcmNUTk5Ob05NcnNZRGdSMUllWVo1Y3hSbkZUQWo2Wk5Rb3ZiUVl6Wllha1B3SWNfR3B5U2Njcnk2ZVpsRHlGeEQ3N1pydGYxWVN0aEt5b0ZYODlKMFNxTXAtSUg1Z19wT0s5Zy13NGhzUjMzeUZvcEo4MW8yY0pHNmpEY3RZSUVoZzhQRnRiaktmOWlvMWc?oc=5"
+    },
+    {
+     "tur": "tarih",
+     "metin": "İşgücü İstatistikleri (Ekim 2026)",
+     "tarih": "2026-11-30"
     }
-   ]
+   ],
+   "rakam": [
+    "Asgari ücretle çalışan kişi sayısı (SGK ya da Çalışma Bakanlığı verisi)",
+    "Ekim ayı işsizlik ve işgücüne katılım oranları (30 Kasım bülteni)"
+   ],
+   "dikkat": "Üç senaryodaki rakamlar basın tahminidir; karar çıkana kadar 'olacak' diye yazmayın.",
+   "atif_gerekli": [
+    "Asgari ücretin istihdam etkisi üzerine akademik çalışma (işgücü iktisadı literatürü)",
+    "TÜİK İşgücü İstatistikleri bülteni"
+   ],
+   "atif": []
   },
   {
    "kategori": "Demografi",
-   "baslik": "Doğum Kararını Hangi Koşullar Destekliyor?",
-   "tez": "Doğum kararını bakım hizmetleri, çalışma koşulları ve konut gibi günlük hayat koşulları da etkiliyor. OECD, iş ve aile hayatını uzlaştıran politikaları doğurganlıkla ilişkilendiriyor.",
-   "kanca": "Plan ve Bütçe Komisyonu görüşmelerinde nüfus ve doğurganlık konusu yeniden gündemde.",
+   "baslik": "Emeklilik Yaşı Tartışması ve Yaşlanan Nüfus",
+   "tez": "Kademeli emeklilik teklifi, bir yaş tablosundan çok nüfus yapısının değiştiğini hatırlatıyor: çalışan sayısı ile emekli sayısı arasındaki oran, sistemin mali dengesini belirleyen temel göstergedir.",
+   "kanca": "Kademeli emeklilik kanun teklifi Meclis’te; aynı günlerde emekli zammı ve refah payı tartışmaları sürüyor.",
+   "acilis": "Bir emekli ile bir genç çalışanın aylık hesabını yan yana koyarak başlayın.",
+   "zaman": "Teklif komisyondayken",
    "gundem": [
     {
      "tur": "haber",
-     "metin": "Aile ve Sosyal Hizmetler Bakanlığı’nın 2027 Yılı Bütçe Sunumu Yayımlandı",
-     "kaynak": "Aile ve Sosyal Hizmetler Bakanlığı",
-     "tarih": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPajk5Um5Kdy0zQkZEbXlsOU1QTHBveW1VX1JZUWpxUDc3bFRWMGlDX0JuTDRfOVJUYTk2Q25qekN4NFVManhHTm9XMFB3NThNQ2tFdWdwd3Ezc0J4QldPbHlPOW9VRGNMdmV1bnBoa3hPdk54XzlpZWFjYi1COFkwR1JqTXBxeEJRTVo5T3JTcmlqZmt2YlozeTV0c2x2d1dBT1Q2blRyblJoUmxXaVJrUWtB?oc=5"
+     "metin": "Kademeli emeklilik kanun teklifi Meclis’te: Kimler, kaç yaşında emekli oluyor?Kademeli emeklilik yaş tablosu açıklandı",
+     "kaynak": "Yeni Şafak",
+     "tarih": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRVItczF0eDJEUDQweTJ4cFJSWVA0T1FvZ0RDelg4QndBRzdqSERPSjNWQzRmRV9HM0Rrc1ZNZ0dIQzVIS2E5TmpDaGR0U2JsVDhadko4UnE0Vzl3TnlaVXQtemc1UDJrdnk0V3drTTU4UnN6NnZkazZQY1dVS2FhaVVjMkRFZ1BXSUcxaDhJRnFsdm9qZ1lkbWFiajZrY0NRbk4yMjd5aWF5QmRsWWItQmdQV1FacE11bXRwUVdqSXhnWmRkakk5VUlHdExnR1JTM0ZZeUgtcFJid29yV2pEQnFsNnIyTmdxSjMxODd1MzlWUmpj?oc=5"
+    },
+    {
+     "tur": "haber",
+     "metin": "EMEKLİ ZAMMI 2027 SON DAKİKA! Emekliye kademeli ek zam geliyor! İşte 12 soruda tüm merak edilenler",
+     "kaynak": "Sabah",
+     "tarih": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTjFLQnVoNkNGSG5lU19BUng0Ym9Iamtrek9SS1c1dV9xbGR2TVk0OGFRN1lNS1gydTFuQ3JOWjczb1diWDN6SVFLY0lTeU5EUS1hdllxVUNWbTVaa0w1UHF4am9tZFd5bDFLT3Zucm4wc05pdkRSb3Zvb19TODdsc1QzVTROMnBiUHVEUDdvUHdsUDc0WjZ1SHpqS0tWZHFEcTN3Qmd5dDJjRHptYV9hYXhHSloyWWRZTDVxNGVUUDVjVmtzOF9mM2NlemhxZDlCS182N3BySU9sd9IB3AFBVV95cUxQTHlDd2RJdmZHczUtUFFxU3dnUjhFSjBqQmlTa2lGQzRSRVpWTXhtbVNIYnpLZHVOUHQ3M19KZ0gyOVZlanBlNzl2dHJqQVg0M2pNT0h1LTFtV2t4TTJuNTU4YVY3MnZWdUc5ai1FVGtXNDFiRlV6ZzFtX0dRdXlfc0xweVhvd2Z3N1JaM3lWelltRDlBZ0pWd0hoNHV2c2ptcEpzSGMwTkhidFl5dWZHbnVKSFhoXzFJOWJWQTFGQ3ZORTdEdms4dHp4N0thU29pNkdkT3llR0RRT3Fi?oc=5"
+    },
+    {
+     "tur": "haber",
+     "metin": "Emekli maaşlarına refah payı sürprizi! Prim gününe göre yeni formül",
+     "kaynak": "CNN Türk Finans",
+     "tarih": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZDUySmVGQXBMeUJ3ak9uMVhNTHBXcDJSb094MzV4aWV3V0xFNGM5T0dJa3dxTlNfdjNhM2lpWHYwZFlPelJWNkc1MGxtZ2wwVmwxN2lyMmR1STQ4bkN0NTZGM3NLakxaME1vWmNLQXZBVWd1LU4wZ3B2YVBIdUN1MGthajk4SHY0eWRKdi02RjBUaHVFT3Z5NHRjQjlLMTBaalAzbkpyWDl5czNFeXRKeWJlbGM2SDQwOFE?oc=5"
     }
    ],
    "rakam": [
-    "TÜİK’in toplam doğurganlık hızı (son yıl ve bir önceki yıl)"
+    "Çalışan sigortalı / emekli sayısı oranı (SGK istatistikleri)",
+    "Türkiye’de 65 yaş üstü nüfus payı (TÜİK Nüfus Projeksiyonları)"
    ],
-   "dikkat": "Siyasi bir tartışmanın tarafı olmayın; kişi ya da kurum hedef almadan, OECD verisiyle yazın. Rakamı yayından alıp yılıyla birlikte verin.",
-   "zaman": "Bu hafta, tepkiler sürerken",
-   "atif": [
-    {
-     "baslik": "Declining fertility rates put prosperity of future generations at risk (Society at a Glance 2024)",
-     "kurum": "OECD",
-     "tur": "uluslararası kuruluş",
-     "link": "https://www.oecd.org/en/about/news/press-releases/2024/06/declining-fertility-rates-put-prosperity-of-future-generations-at-risk.html",
-     "yil": 2024
-    },
-    {
-     "baslik": "OECD Family Database",
-     "kurum": "OECD",
-     "tur": "uluslararası kuruluş",
-     "link": "https://www.oecd.org/social/family/database"
-    },
-    {
-     "baslik": "The Economic Consequences of Family Policies: Lessons from a Century of Legislation in High-Income Countries (Olivetti, Petrongolo)",
-     "kurum": "Journal of Economic Perspectives",
-     "tur": "akademik",
-     "link": "https://nber.org/papers/w23051",
-     "yil": 2017
-    }
-   ]
+   "dikkat": "Teklifin ayrıntıları değişebilir; yaş tablosunu yazmadan önce son metni kontrol edin. Duygusal dilden kaçının.",
+   "atif_gerekli": [
+    "OECD Pensions at a Glance (emeklilik yaşı karşılaştırması)",
+    "TÜİK Nüfus Projeksiyonları"
+   ],
+   "atif": []
   },
   {
-   "kategori": "Aile",
-   "baslik": "Bütçede Ailenin Payı Ne Kadar?",
-   "tez": "Bütçe tartışmasında aileye ayrılan pay, kreş, bakım ve yaşlı hizmetleri gibi ailelerin gündelik hayatına dokunan kalemlerle okunmalı.",
-   "kanca": "Aile ve Sosyal Hizmetler Bakanlığı’nın 2027 bütçesi komisyonda görüşüldü; Genel Kurul görüşmeleri 7 Aralık’ta başlıyor.",
+   "kategori": "Makroekonomi",
+   "baslik": "2027 Bütçesi Genel Kurul’a Geliyor: Kalemler Nasıl Okunur?",
+   "tez": "Bütçe rakamlarının çoğu okura soyut gelir. Üç soru yeter: devlet ne kadar topluyor, ne kadar harcıyor, farkı nasıl kapatıyor? Kalem kalem değil, oran oran okumak daha öğreticidir.",
+   "kanca": "2027 merkezi yönetim bütçesi 7 Aralık’tan itibaren Genel Kurul’da; bakanlık bütçeleri komisyondan geçiyor.",
+   "acilis": "Bütçeyi aile bütçesine çevirip 'maaş, kira, borç taksidi' üçlüsüyle açın.",
+   "zaman": "Genel Kurul görüşmeleri başlarken (7 Aralık)",
    "gundem": [
     {
      "tur": "haber",
-     "metin": "Aile ve Sosyal Hizmetler Bakanlığı’nın 2027 Yılı Bütçe Sunumu Yayımlandı",
-     "kaynak": "Aile ve Sosyal Hizmetler Bakanlığı",
-     "tarih": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPajk5Um5Kdy0zQkZEbXlsOU1QTHBveW1VX1JZUWpxUDc3bFRWMGlDX0JuTDRfOVJUYTk2Q25qekN4NFVManhHTm9XMFB3NThNQ2tFdWdwd3Ezc0J4QldPbHlPOW9VRGNMdmV1bnBoa3hPdk54XzlpZWFjYi1COFkwR1JqTXBxeEJRTVo5T3JTcmlqZmt2YlozeTV0c2x2d1dBT1Q2blRyblJoUmxXaVJrUWtB?oc=5"
+     "metin": "Dışişleri Bakanlığının 2027 yılı bütçesi TBMM Plan ve Bütçe Komisyonunda kabul edildi",
+     "kaynak": "Anadolu Ajansı",
+     "tarih": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSGlOeHZhSGVFQ3ZVbmhnUDAtRXJPTDhkOE1ESl96R1ZDWWItUGtRTkRrazlUQzctNkpjOVZ4T0ZOajhhd3NBNTV0MGFOenRwX09xQXE3VDdOTVdaMUFTRzBCQ1NXdXQ0N3ZGUXhyZGM2Nl9ha0Z2LVRhVVJqWS1CR2wwTUVfanU3c3c2cnNXc3YzbWpFelJVTkkwX09NdmI2YXVlTU8tSzhmdHJx?oc=5"
     },
     {
      "tur": "tarih",
-     "metin": "TBMM Genel Kurulu’nda 2027 bütçe görüşmeleri başlıyor",
+     "metin": "Genel Kurul: 2027 Merkezi Yönetim Bütçesi görüşmeleri",
      "tarih": "2026-12-07"
     }
    ],
    "rakam": [
-    "Bakanlığın 2027 bütçesi ve merkezi yönetim bütçesindeki payı, bir önceki yılla birlikte (bütçe belgesi)"
+    "Bütçe açığının milli gelire oranı (Orta Vadeli Program / bütçe gerekçesi)",
+    "Faiz giderlerinin bütçedeki payı (Hazine ve Maliye Bakanlığı verisi)"
    ],
-   "dikkat": "Bütçe rakamlarını yalnızca bütçe belgesinden alın; yorum yapmadan önce toplam bütçe içindeki payı birlikte verin.",
-   "zaman": "7 Aralık’tan önceki hafta",
-   "atif": [
-    {
-     "baslik": "OECD Family Database",
-     "kurum": "OECD",
-     "tur": "uluslararası kuruluş",
-     "link": "https://www.oecd.org/social/family/database"
-    },
-    {
-     "baslik": "Women, Work and Caregiving Through the Arc of Family Life",
-     "kurum": "Pew Research Center",
-     "tur": "think-tank",
-     "link": "https://www.pewresearch.org/social-trends/2026/10/22/women-work-and-caregiving-through-the-arc-of-family-life/",
-     "yil": "2026"
-    }
-   ]
+   "dikkat": "Yılları karşılaştırırken aynı fiyatlarla (reel) kıyasladığınızdan emin olun.",
+   "atif_gerekli": [
+    "2027 Merkezi Yönetim Bütçe Kanunu Teklifi gerekçesi (TBMM)",
+    "Bütçe okuryazarlığı üzerine IMF ya da OECD rehberi"
+   ],
+   "atif": []
   },
   {
-   "kategori": "Gençlik ve eğitim",
-   "baslik": "Öğretmenler Günü’nde Maaşın Ötesini Konuşalım",
-   "tez": "Öğretmene saygı yalnızca maaş zammıyla ölçülmez; iş yükü, mesleki gelişim ve sınıftaki karar yetkisi de aynı ciddiyetle konuşulmalı.",
-   "kanca": "24 Kasım Öğretmenler Günü, Ocak zammı haberlerinin öğretmen maaşlarını öne çıkardığı günlere denk geliyor.",
+   "kategori": "Dış ticaret ve döviz piyasası",
+   "baslik": "Gram Altın Gerilerken Küçük Tasarruf Sahibi Ne Düşünmeli?",
+   "tez": "Altın ve borsa haberleri çoğu zaman fiyat tahminine dönüşür. Bir köşe yazısının işi tahmin vermek değil, tasarrufu etkileyen riskleri ve zaman ufkunu açıklamaktır.",
+   "kanca": "Gram altın 6 bin TL’nin altına geriledi; küresel borsalarda satış dalgası sürüyor.",
+   "acilis": "Aynı tasarrufu üç farklı ufukta (3 ay, 3 yıl, 30 yıl) düşünen üç kişiyle başlayın.",
+   "zaman": "Piyasa dalgalanırken, bu hafta",
+   "gundem": [
+    {
+     "tur": "haber",
+     "metin": "ALTINDA SERT DÜŞÜŞ SON DAKİKA: Gram altın 6 bin TL'nin altında! Altın neden düşüyor? İşte 20 Kasım güncel fiyatlar",
+     "kaynak": "İstanbul Ticaret Gazetesi",
+     "tarih": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX09FTE5vc0Y5TEVQZG9PR252VGg0bDRJNGxGUmVjTDZ6a1ViZXlRZlNVaWExeFE3a1daa0VnWmF6TW90aFFvaHZKTFljVFlNejRJYU1LV1pMOEY3NE1YTkN0clNZcms4T2NqVXJVMDJJRC0zaGxoMmNXdlhwZmJMX0hFS0FINXZMQUNMaGVZcnQxYlRPNl9SNnZGSHg4RzgtV3pQZzJ4TG1VNUpuTXZyN0Vfa0xsSTAxekh4dU56S2pNcHRxdHdvZlZpRnpZdDl2bTlIRmMxN2QwNnlRSFNR?oc=5"
+    },
+    {
+     "tur": "haber",
+     "metin": "Küresel borsalarda satış dalgası",
+     "kaynak": "BloombergHT",
+     "tarih": "2026-11-20",
+     "link": "https://www.bloomberght.com/kuresel-borsalarda-satis-dalgasi-3795224"
+    },
+    {
+     "tur": "haber",
+     "metin": "Küresel borsalarda sert satış: Yapay zeka hisseleri çakıldı",
+     "kaynak": "Dünya Gazetesi",
+     "tarih": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPXzVrcmlSVG1ENTQwcENZZkxCTEMtR2JLRTJqMVVXS3B3S2FPR0VLeGN6OXp1R0tqdG5XX0d0d1otN0hxeklBS2lnaFVad1o1ekxtcGxCR0lDZnhfamNWZDgwdHRLZmVqWXNXQ3dpaFZUNnhkMFZ0OEhBSnlORG1wRmh0bDFUMDBuNTdhTEJWVExCQ1hiVEdhNWRrUk5DRDIteG1TUw?oc=5"
+    }
+   ],
+   "rakam": [
+    "Gram altının son bir yıldaki değişimi (aralığı kaynaktan teyit edip yazın)",
+    "Hanehalkı tasarruf oranı (TÜİK ya da TCMB)"
+   ],
+   "dikkat": "Yatırım tavsiyesi vermeyin; 'alın' ya da 'satın' demeyin. Fiyatları gün ve saatle belirtin.",
+   "atif_gerekli": [
+    "Hanehalkı tasarruf davranışı üzerine bir akademik çalışma"
+   ],
+   "atif": []
+  },
+  {
+   "kategori": "Dış ticaret ve döviz piyasası",
+   "baslik": "Ekim Ayı Dış Ticaret Rakamı Ne Anlatır?",
+   "tez": "Dış ticaret açığı tek başına iyi ya da kötü değildir; neyin ithal edildiği (yatırım malı mı, tüketim malı mı), ihracatın hangi pazarlara gittiği ve kurun bu dengeyi nasıl etkilediği birlikte okunmalıdır.",
+   "kanca": "Ekim ayı dış ticaret istatistikleri 30 Kasım’da, endeksler 10 Aralık’ta açıklanıyor.",
+   "acilis": "Makine ithal edip ihracat yapan bir üreticiyle başlayın; 'ithalat kötüdür' kalıbını sorgulayın.",
+   "zaman": "30 Kasım-1 Aralık",
    "gundem": [
     {
      "tur": "tarih",
-     "metin": "Öğretmenler Günü",
-     "tarih": "2026-11-24"
+     "metin": "Dış Ticaret İstatistikleri (Ekim 2026)",
+     "tarih": "2026-11-30"
     },
+    {
+     "tur": "tarih",
+     "metin": "Dış Ticaret Endeksleri (Ekim 2026)",
+     "tarih": "2026-12-10"
+    },
+    {
+     "tur": "haber",
+     "metin": "Merkez Bankası rezervleri 2 milyar dolar azaldı",
+     "kaynak": "Türkiye Gazetesi",
+     "tarih": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZndtTU8zeXRwUVlST05PSm5zVjlPZDIwdmdkbzZNaXMtSHlfc29jSXlBUHpLZDBabEdzLTBiNzJ6Vy15cUNuQzA2Wk51UXJFV2VLRU9FRHNlcC1LQ2NLSkYwU0NVWHZTbGRFOG9oVlJ6MFBRZ1E5dWRlLVRCMXRfYzVOUy1COUY3V1Jsd0g0MDh4NjZhZmJwNDE1N0RRXzg?oc=5"
+    }
+   ],
+   "rakam": [
+    "İhracatın ithalatı karşılama oranı (TÜİK bülteni)",
+    "Ara malı ve yatırım malı ithalatının payı"
+   ],
+   "dikkat": "Bülten çıkmadan rakam yazmayın; yazıyı rakam geldikten sonra tamamlayacak şekilde hazırlayın.",
+   "atif_gerekli": [
+    "TÜİK Dış Ticaret İstatistikleri bülteni (Ekim 2026)",
+    "UNCTAD ya da Dünya Ticaret Örgütü genel görünüm raporu"
+   ],
+   "atif": []
+  },
+  {
+   "kategori": "Yapay zekâ ve teknoloji",
+   "baslik": "Yapay Zekâ Hisseleri Düşerken Emek Piyasası Ne Hissediyor?",
+   "tez": "Teknoloji hisselerindeki düşüş, yapay zekânın ekonomik etkisi hakkındaki beklentilerin gözden geçirildiğini gösterebilir. Ama asıl soru borsada değil, hangi işlerin ne hızla değiştiğindedir.",
+   "kanca": "Küresel borsalarda yapay zekâ hisseleri sert düştü; aynı günlerde Apple’ın kendi yapay zekâ ajanını geliştirdiği haberi çıktı.",
+   "acilis": "Bir muhasebecinin ya da çağrı merkezi çalışanının gün içi iş listesiyle başlayın.",
+   "zaman": "Piyasa dalgalanırken",
+   "gundem": [
+    {
+     "tur": "haber",
+     "metin": "Küresel borsalarda sert satış: Yapay zeka hisseleri çakıldı",
+     "kaynak": "Dünya Gazetesi",
+     "tarih": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPXzVrcmlSVG1ENTQwcENZZkxCTEMtR2JLRTJqMVVXS3B3S2FPR0VLeGN6OXp1R0tqdG5XX0d0d1otN0hxeklBS2lnaFVad1o1ekxtcGxCR0lDZnhfamNWZDgwdHRLZmVqWXNXQ3dpaFZUNnhkMFZ0OEhBSnlORG1wRmh0bDFUMDBuNTdhTEJWVExCQ1hiVEdhNWRrUk5DRDIteG1TUw?oc=5"
+    },
+    {
+     "tur": "haber",
+     "metin": "Apple, Mac bilgisayarları kontrol edebilen kendi yapay zeka ajanını geliştiriyor",
+     "kaynak": "Webrazzi",
+     "tarih": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd090NEFXMlQtM2Zub0hLU0YzN2VsaTZHOFp6WlQ5RmdPNGtOdDdqbEM0aWV6ZERnNHhtLWxJUWdUTHFNTG1OYmZyVFVGUnUwZnh1MzNrNndiYTVVRHZic3ZNbDRnX2d3MGVOcWF3SGxkeF92WE5EbGFtOGV6cThleGoyd0pBUk90c0VBUUJ3WU9vR2t2TEthLU9JaFJ6d0paRksyVmlmVm1QWE5LaVU2SDl3?oc=5"
+    },
+    {
+     "tur": "haber",
+     "metin": "Yapay zeka ajanları iş dünyasının yeni oyuncusu oldu",
+     "kaynak": "Habertürk",
+     "tarih": "2026-11-12",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUTNsSzIyS2liQTBCbXIxeDR3MGlsY0o4WDAxNDVOc2tZUVZUY2U5bWRKQmV1dVAwZDB5dms4YkI3aC13MHdwZ29WME9Kb2xMWXhsdlBBX1lxM2s4RHZfVWtLZWRmVGo1Nl9LMUhwUGppcC1YaEtLZHE1MjJ5Nll2LWhZV1lveUNNNUtZUnBlYUFZNGdYXzlTVHpB?oc=5"
+    }
+   ],
+   "rakam": [
+    "Türkiye’de yapay zekâdan etkilenmesi beklenen meslek payı (ILO ya da OECD çalışması)",
+    "Yapay zekâ kullanan işletme oranı (TÜİK Bilişim Teknolojileri Kullanım Araştırması)"
+   ],
+   "dikkat": "Borsa düşüşünden yapay zekânın 'bittiği' sonucunu çıkarmayın; tek günlük hareketten genel sonuç yazmayın.",
+   "atif_gerekli": [
+    "ILO ya da OECD yapay zekâ ve istihdam çalışması"
+   ],
+   "atif": []
+  },
+  {
+   "kategori": "Yapay zekâ ve teknoloji",
+   "baslik": "Çocuğun Ekranında Yapay Zekâ: Koruma Araçları Yeterince Anlaşılıyor mu?",
+   "tez": "Çocukları çevrim içi istismara karşı koruyan yapay zekâ araçları gelişirken, ailelerin bu araçların neyi gördüğünü ve neyi göremediğini bilmesi gerekir. Teknoloji, ailenin ilgisinin yerini almaz.",
+   "kanca": "Dünya Çocuk Hakları Günü’nün hemen ardından OpenAI çocukların çevrim içi istismarını tespit etmek için yeni bir yapay zekâ aracı duyurdu.",
+   "acilis": "Bir çocuğun akşam ekran başında geçirdiği saatleri sormakla başlayın.",
+   "zaman": "Bu hafta",
+   "gundem": [
+    {
+     "tur": "haber",
+     "metin": "Emine Erdoğan'dan Dünya Çocuk Hakları Günü mesajı",
+     "kaynak": "AA Güncel",
+     "tarih": "2026-11-20",
+     "link": "https://www.aa.com.tr/tr/gundem/emine-erdogandan-dunya-cocuk-haklari-gunu-mesaji/4131995"
+    }
+   ],
+   "rakam": [
+    "Türkiye’de çocukların internet kullanım yaşı ve süresi (TÜİK Çocuk ve Bilişim araştırması)",
+    "Çevrim içi istismar bildirim sayıları (ilgili kurumun resmî verisi)"
+   ],
+   "dikkat": "Konu hassas: istismar ayrıntılarına girmeyin, mağdur ve kişi isimlerine yer vermeyin. Aracın başarı oranını şirket açıklamasından teyitsiz yazmayın.",
+   "atif_gerekli": [
+    "UNICEF ya da ITU çocukların çevrim içi korunması raporu",
+    "OpenAI’nin duyurusu (birincil kaynak)"
+   ],
+   "atif": []
+  },
+  {
+   "kategori": "Toplum ve aile",
+   "baslik": "25 Kasım’da Kadına Yönelik Şiddet: Rakam mı, Hikâye mi?",
+   "tez": "Şiddet haberleri tek tek olay olarak okunur; yaygınlığı ancak düzenli ve karşılaştırılabilir verilerle görebiliriz. Yazı, veri okuryazarlığı üzerinden toplumsal farkındalığı güçlendirebilir.",
+   "kanca": "25 Kasım, Kadına Yönelik Şiddete Karşı Uluslararası Mücadele Günü.",
+   "acilis": "Bir haber başlığının arkasındaki kayıt sürecini (kim bildiriyor, kim sayıyor) anlatarak açın.",
+   "zaman": "24-25 Kasım",
+   "gundem": [
+    {
+     "tur": "tarih",
+     "metin": "Kadına Yönelik Şiddete Karşı Uluslararası Mücadele Günü",
+     "tarih": "2026-11-25"
+    }
+   ],
+   "rakam": [
+    "Türkiye’de kadına yönelik şiddet araştırması sonuçları (Hacettepe Üniversitesi / ilgili bakanlık)",
+    "Karşılaştırma için Avrupa Birliği ya da BM Kadın verisi"
+   ],
+   "dikkat": "Çok hassas konu: tek bir olaya dayanmayın, mağdur ve ailesinin kimliğini yazmayın, sansasyonel dilden kaçının.",
+   "atif_gerekli": [
+    "UN Women ya da BM Nüfus Fonu şiddet raporu",
+    "Türkiye’de Kadına Yönelik Şiddet Araştırması"
+   ],
+   "atif": []
+  },
+  {
+   "kategori": "Gençlik ve eğitim",
+   "baslik": "Öğretmenler Günü’nde Mesleğin Çekiciliğini Ölçmek",
+   "tez": "Öğretmenliğin çekiciliği yalnızca maaşla değil; çalışma koşulları, mesleki gelişim ve toplumsal saygınlıkla ölçülür. Günün anlamını bu göstergelerle konuşmak, kutlama dilinden daha kalıcıdır.",
+   "kanca": "24 Kasım Öğretmenler Günü; aynı günlerde memur maaş zammı tartışmaları öğretmen, polis ve hemşire maaşlarına odaklanıyor.",
+   "acilis": "Bir öğretmenin sınıfta geçen ve sınıf dışında geçen saatlerini sayarak açın.",
+   "zaman": "23-24 Kasım",
+   "gundem": [
     {
      "tur": "haber",
      "metin": "Ocak 2027 memur zammı belli oluyor: Polis, öğretmen ve hemşire maaşları 100 bin TL'yi aşacak",
      "kaynak": "Ekonomim",
      "tarih": "2026-11-19",
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS25LeEFyVHpvOXZJMDFlOGdJM1IzczlTSFhONmg2THdTMEozSmVwREduTG91VmNJZnBUSDlWMUxobWViT1ZKRjZiUHdaRVpDUXlfd1RkQk4xVkd0YXI0OVA0S3ptbjd3MzNCRm9uUUFMLTNxS25ycy1HOVNjRnlEbzZ4Z3lzQ2V6NnNCa3VBdEliZG5kT01HazVIZWlxSDNoeFBLS2ktMTlOTHBPeTZLNjhwU19hZ29MSGRvR3ZfQ1V4TzZSUDRlazhUcmNvYlZ2cmsxVF9XcUQ0YXNYVWxOeDV3?oc=5"
-    }
-   ],
-   "rakam": [
-    "OECD TALIS’ten öğretmenlerin haftalık çalışma süresi ve mesleki gelişime katılımı (Türkiye ve OECD ortalaması)"
-   ],
-   "dikkat": "Maaş rakamlarını haberlerden değil resmî zam tablosundan alın; öğretmeni yalnızca mağdur olarak çizmeyin.",
-   "zaman": "24 Kasım’dan önce"
-  },
-  {
-   "kategori": "Yapay zekâ ve teknoloji",
-   "baslik": "Yapay Zekâ Çalışanın Yardımcısı mı, Patronu mu?",
-   "tez": "Yapay zekâ iş yerine girerken sorulması gereken soru, teknolojinin ne yapabildiği değil; kimin neyi karara bağladığı ve kazancın kime gittiği. Çalışanlar da bu kuralların yazıldığı masada olmalı.",
-   "kanca": "Microsoft CEO’su Nadella, çalışanların yapay zekâ temsilcilerini yöneteceğini söyledi (BloombergHT, 19 Kasım). Aynı günlerde Deloitte ve ILO yayınları yapay zekânın işgücüne etkisini tartışıyor.",
-   "acilis": "Sabah işe girdiğinizde masanızda sizin adınıza e-posta yazan bir yapay zekâ olduğunu düşünün. Size yardım mı ediyor, yoksa onu siz mi denetliyorsunuz?",
-   "zaman": "Bu hafta, açıklama konuşulurken",
-   "gundem": [
-    {
-     "tur": "haber",
-     "metin": "Microsoft CEO’su Nadella: Çalışanlar, yapay zeka temsilcilerini yönetecek",
-     "kaynak": "BloombergHT",
-     "tarih": "2026-11-19",
-     "link": "https://www.bloomberght.com/microsoft-ceo-su-nadella-calisanlar-yapay-zeka-temsilcilerini-yonetecek-3795184"
-    },
-    {
-     "tur": "yayin",
-     "metin": "Deloitte küresel araştırması: Yapay zekâ işgücünü yeniden şekillendirirken yönetim kurulları bir yönetişim sorunuyla karşı karşıya",
-     "kaynak": "Deloitte",
-     "tarih": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTTBzcS16VjEtaUotY2NaLWQ3amxZelBGRUdPc2EtQ2E0Y21FdkxScC0zYTNUZ2hwcm81cUhfYVRyNnltYVowTU5kenBWOTBsN2hsdmhHdWRsd3hhTGVTclNfR1RZYUZOWkd2VTJLOEhDNmhnVm93YVZLT2JBa3dsXzY1UE16NlhCSTRmM2pKR3hRNy00c1VKWTdjYU4?oc=5"
-    },
-    {
-     "tur": "yayin",
-     "metin": "ILO politika notu: Yapay zekâ ve gelişmekte olan ekonomiler, hızlı teknolojik değişimde insana yakışır iş",
-     "kaynak": "ILO",
-     "tarih": "2026-11-04",
-     "link": "https://www.ilo.org/publications/ai-and-developing-economies-promoting-decent-work-time-rapid-technological"
-    },
-    {
-     "tur": "yayin",
-     "metin": "Deloitte: Birleşik Krallık’ta perakende çalışanları, yapay zekânın verimlilik kazanımlarında işgücünün geri kalanının gerisinde",
-     "kaynak": "Deloitte",
-     "tarih": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR2NEWVhBT1pfbldySDZ3Q2ZTODFrYkJfeHNRR3VFTTRoODZ0ZHJiRXN6TjVXaEZfYmhTckhrZFZZam5Nd0o3Wi1NTEE5R2UyWVRCbmU1MUF1MnRLck1xMDdXS25NUExseUJzYUpPU0pyeUhzWnBhVGJPOVlSMzQzNmlRN2FvT0RzcFVYUzA3dERCWEwzRmJORkFmM1VmbW1BYnpQSzJUa0d2cmpkbmNwanZqY3d4eDRqTDNNOWpDTHpMZw?oc=5"
-    }
-   ],
-   "rakam": [
-    "Deloitte Global anketinden bir bulgu (yayını açıp kurum, yıl ve örneklemle birlikte aktarın)",
-    "Türkiye’de iş yerinde yapay zekâ kullanan işletme oranı (TÜİK)"
-   ],
-   "dikkat": "Nadella’nın sözünü haberin tam metninden doğrulayın. Deloitte ve ILO yayınları İngilizce; rakamı yayından okuyup aktarın, başlıktan çıkarım yapmayın. İşsizlik korkusu yaratan bir dil kullanmayın.",
-   "atif": [
-    {
-     "baslik": "OECD Employment Outlook 2023: Artificial intelligence and the labour market (executive summary)",
-     "kurum": "OECD",
-     "tur": "uluslararası kuruluş",
-     "link": "https://www.oecd.org/en/publications/oecd-employment-outlook-2023_08785bba-en/full-report/executive-summary_92f8509e.html",
-     "yil": 2023
-    },
-    {
-     "baslik": "Generative AI at Work (Brynjolfsson, Li, Raymond)",
-     "kurum": "The Quarterly Journal of Economics / NBER",
-     "tur": "akademik",
-     "link": "https://www.nber.org/papers/w31161",
-     "yil": 2025
-    },
-    {
-     "baslik": "As AI reshapes the workforce, boards face a governance challenge, says Deloitte Global Survey",
-     "kurum": "Deloitte",
-     "tur": "think-tank / danışmanlık",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTTBzcS16VjEtaUotY2NaLWQ3amxZelBGRUdPc2EtQ2E0Y21FdkxScC0zYTNUZ2hwcm81cUhfYVRyNnltYVowTU5kenBWOTBsN2hsdmhHdWRsd3hhTGVTclNfR1RZYUZOWkd2VTJLOEhDNmhnVm93YVZLT2JBa3dsXzY1UE16NlhCSTRmM2pKR3hRNy00c1VKWTdjYU4?oc=5",
-     "yil": "2026"
-    }
-   ]
-  },
-  {
-   "kategori": "Toplum",
-   "baslik": "Kreş Hizmeti Kadın İstihdamını Nasıl Destekler?",
-   "tez": "Kadınların çalışma hayatındaki yeri konuşulurken kreş ve çocuk bakımına erişim de birlikte ele alınabilir; bütçe görüşmeleri bu konuyu masaya koymak için iyi bir zaman.",
-   "kanca": "2027 bütçesi Genel Kurul’a gelmeden önce kadın istihdamı ve bakım hizmetleri gündemde. Dünya Bankası ve ILO yayınları, kadın istihdamında çocuk bakımının ve kadın yöneticilerin yerini işliyor.",
-   "acilis": "Sabah işe yetişen bir anne için en önemli soru, çocuğunu bırakacağı yerin olup olmadığı.",
-   "zaman": "7 Aralık’ta bütçe görüşmeleri başlamadan önce",
-   "gundem": [
-    {
-     "tur": "yayin",
-     "metin": "Dünya Bankası: Nijerya’da çocuk bakımına yatırım, kadınların işe erişimi için",
-     "kaynak": "Dünya Bankası",
-     "tarih": "2026-10-29",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWGVkc2F4dmNsVF80bktEZ2pVVW14clgxTEVQY1Btd2M5UFJZMENXbzh0TThJVFdiaElEWGl6aEdoMEFSNzNQdnJHZERkNmxUQ2pMRVcyVy0xNHluRUsyQnpxVTNjbGNaQUxPRXRfc0VNYXRRNWlQTGZOaU5sbVhiWmNaNXpDenVZOTdPQnhlazFxcWc?oc=5"
-    },
-    {
-     "tur": "yayin",
-     "metin": "ILO: İş dünyasında ve yönetimde kadınlar, başarının ölçeklenmesi",
-     "kaynak": "ILO",
-     "tarih": "2026-11-03",
-     "link": "https://www.ilo.org/publications/major-publications/women-business-and-management-scaling-success"
     },
     {
      "tur": "tarih",
-     "metin": "TÜİK İşgücü İstatistikleri yayımlanıyor (kadınların işgücüne katılım oranı)",
-     "tarih": "2026-11-30"
+     "metin": "Öğretmenler Günü",
+     "tarih": "2026-11-24"
     },
     {
      "tur": "tarih",
-     "metin": "TBMM Genel Kurulu’nda 2027 bütçe görüşmeleri başlıyor",
+     "metin": "Eğitim Harcamaları İstatistikleri (2025)",
      "tarih": "2026-12-07"
     }
    ],
    "rakam": [
-    "TÜİK İşgücü İstatistikleri: kadınların işgücüne katılım oranı (son yayımlanan dönem)",
-    "Kreş ve gündüz bakım hizmeti kapasitesi (Aile ve Sosyal Hizmetler Bakanlığı ya da MEB kayıtları)"
+    "Öğretmen başına öğrenci sayısı (MEB ya da OECD Education at a Glance)",
+    "Öğretmen maaşlarının OECD ortalamasıyla karşılaştırılması"
    ],
-   "dikkat": "Nijerya örneğini Türkiye’ye doğrudan taşımayın; yayını okumadan sonuç çıkarmayın. Annelik ve çalışma konusunda yargılayıcı bir dil kullanmayın.",
+   "dikkat": "Maaş zammı ayrıntıları kesinleşmedi; tahmini rakamları kesin gibi yazmayın.",
+   "atif_gerekli": [
+    "OECD Education at a Glance (öğretmen maaşları ve çalışma saatleri)",
+    "OECD TALIS öğretmen araştırması"
+   ],
+   "atif": []
+  },
+  {
+   "kategori": "Gençlik ve eğitim",
+   "baslik": "Genç İşsizliği Hangi Rakamla Okumalı?",
+   "tez": "Genç işsizlik oranı tek başına yanıltıcıdır; okuyan, çalışan, ne çalışan ne okuyan (NEET) gençleri ayrı ayrı görmek gerekir. Doğru gösterge, gencin sistemin neresinde durduğunu anlatır.",
+   "kanca": "Ekim ayı İşgücü İstatistikleri 30 Kasım’da açıklanıyor; Almanya’da gençlerin sokağa çıktığı haberleri gündemde.",
+   "acilis": "Aynı yaşta üç gencin (üniversite öğrencisi, çalışan, ikisi de olmayan) bir günüyle açın.",
+   "zaman": "30 Kasım-1 Aralık",
+   "gundem": [
+    {
+     "tur": "tarih",
+     "metin": "İşgücü İstatistikleri (Ekim 2026)",
+     "tarih": "2026-11-30"
+    },
+    {
+     "tur": "haber",
+     "metin": "Almanya'da gençler yeniden sokaklarda: Başbakan Merz baskı altında",
+     "kaynak": "BBC",
+     "tarih": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfaXdqMWVRNWZ6NkRuSXp1Z29rWkozd2llUVNjbE1OS2tfUk5MNFpsOWVOelAxVmJ5eGhPTl9jLVhDU1ROY0JTTm8zSVFwNlZmVEd2aUFkbHNvN3lISkHSAWNBVV95cUxNTHlER0E5d2JEM3lLSE1iVS02dDVjcHpULVdBQmttLTlONnFubkltbGVDbkpEY0VDc1pIOU9SQWpjS3Q5OFVFNXQyTmt0MTBQTGFQeXlQSFZpMGgzNEc0c1p2YTg?oc=5"
+    },
+    {
+     "tur": "yayin",
+     "metin": "Launch event: Atlas of Global Development 2026 - Fall Edition | Six new stories on hunger, jobs, pollution, and more",
+     "kaynak": "Dünya Bankası",
+     "tarih": "2026-11-20",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWEhHWVkzY1QtY19iREl4Rlo1SDE2anFSQWhoRHN0UFVvNjB3WFNBQl9oN0g2bURtajJHOENBWkVlT1ZiYlQ1Nk9oRVo2MU1CcnJraUhqbGVuME02eXhWUzNDUnZzZmZkV0d2MklseWpxNWpRNDNJd1EtNUFHYjdVbmY4dXhrX08yaUE0WUUwdW9mR0xrOHZBYnE0SXFyZ3JvV2h0VHhtbU1ZR0NMY2cxMlVtVXNBT1oxZUhyN2x0TE9Bbm9LUEM2OA?oc=5"
+    }
+   ],
+   "rakam": [
+    "Genç (15-24) işsizlik oranı ve NEET payı (TÜİK İşgücü İstatistikleri)",
+    "Avrupa Birliği ortalaması ile karşılaştırma (Eurostat)"
+   ],
+   "dikkat": "Bülten gelmeden rakam yazmayın; Almanya haberini yalnızca bağlam için kullanın.",
    "atif": [
     {
-     "baslik": "Employment and Social Developments in Europe 2023",
-     "kurum": "Avrupa Komisyonu",
-     "tur": "uluslararası kuruluş",
-     "link": "https://op.europa.eu/webpub/empl/esde-2023/chapters/chapter-3-2-2.html",
-     "yil": 2023
-    },
-    {
-     "baslik": "The Economic Consequences of Family Policies: Lessons from a Century of Legislation in High-Income Countries (Olivetti, Petrongolo)",
-     "kurum": "Journal of Economic Perspectives",
-     "tur": "akademik",
-     "link": "https://nber.org/papers/w23051",
-     "yil": 2017
-    },
-    {
-     "baslik": "Nigeria: Investing in Childcare for Women’s Jobs",
+     "baslik": "Launch event: Atlas of Global Development 2026 - Fall Edition | Six new stories on hunger, jobs, pollution, and more",
      "kurum": "Dünya Bankası",
      "tur": "uluslararası kuruluş",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWGVkc2F4dmNsVF80bktEZ2pVVW14clgxTEVQY1Btd2M5UFJZMENXbzh0TThJVFdiaElEWGl6aEdoMEFSNzNQdnJHZERkNmxUQ2pMRVcyVy0xNHluRUsyQnpxVTNjbGNaQUxPRXRfc0VNYXRRNWlQTGZOaU5sbVhiWmNaNXpDenVZOTdPQnhlazFxcWc?oc=5",
-     "yil": "2026"
+     "yil": 2026,
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWEhHWVkzY1QtY19iREl4Rlo1SDE2anFSQWhoRHN0UFVvNjB3WFNBQl9oN0g2bURtajJHOENBWkVlT1ZiYlQ1Nk9oRVo2MU1CcnJraUhqbGVuME02eXhWUzNDUnZzZmZkV0d2MklseWpxNWpRNDNJd1EtNUFHYjdVbmY4dXhrX08yaUE0WUUwdW9mR0xrOHZBYnE0SXFyZ3JvV2h0VHhtbU1ZR0NMY2cxMlVtVXNBT1oxZUhyN2x0TE9Bbm9LUEM2OA?oc=5"
+    }
+   ],
+   "atif_gerekli": [
+    "Eurostat NEET verisi",
+    "ILO Küresel Gençlik İstihdamı Eğilimleri raporu"
+   ]
+  },
+  {
+   "kategori": "Sağlık",
+   "baslik": "Sağlık Bütçesi Komisyondan Geçti: Harcama Neye Gidiyor?",
+   "tez": "Sağlık harcamasının büyüklüğü kadar neye gittiği (koruyucu hizmet mi, hastane mi, ilaç mı) hizmetin niteliğini belirler. Okur için sağlıklı soru 'artış var mı?' değil 'artış nereye gidiyor?'dur.",
+   "kanca": "Sağlık Bakanlığının 2027 bütçesi Plan ve Bütçe Komisyonu’nda kabul edildi; Sağlık Harcamaları İstatistikleri 8 Aralık’ta açıklanıyor.",
+   "acilis": "Bir hastane randevusunun arkasındaki harcama zincirini sadeleştirerek açın.",
+   "zaman": "Bütçe Genel Kurul’a gelirken; 8 Aralık",
+   "gundem": [
+    {
+     "tur": "haber",
+     "metin": "SES, Sağlık Bakanlığı 2027 Yılı Bütçe Teklifine ilişkin değerlendirme raporu yayımladı",
+     "kaynak": "Evrensel",
+     "tarih": "2026-11-16",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZHp4TzlLUEpCRmczb3ZVZ2hNSmJYTXBKMjdQdkhjelpjYnJ2bUEyWllTMlVLbGtoMXdqN3NLclBoT01TbEVFcEZ2WE5VZkJyUlZCWDhQODZsVm1FWFNLeFF5QlEtRElkUmd0b2JWUUJwRWNSYnEyN09tejBfZ3BEMGF2TlE1TG1IcXNJQUZrd3EwbWxweGpzOENLZGJVcDRVRXpPSzdvRlVpUzZCMjVVSXpxUGI5X0tULUdiSTc1SUFHZw?oc=5"
     },
     {
-     "baslik": "Joining Forces for Gender Equality",
-     "kurum": "OECD",
-     "tur": "uluslararası kuruluş",
-     "link": "https://oecd.org/en/publications/joining-forces-for-gender-equality_67d48024-en/full-report/component-27.html"
+     "tur": "tarih",
+     "metin": "Sağlık Harcamaları İstatistikleri (2025)",
+     "tarih": "2026-12-08"
     }
+   ],
+   "rakam": [
+    "Sağlık harcamasının milli gelire oranı (TÜİK, 8 Aralık bülteni)",
+    "Cepten sağlık harcaması payı (DSÖ ya da OECD)"
+   ],
+   "dikkat": "Bütçe rakamını ilgili belgeden teyit edin; haber özetleriyle yetinmeyin.",
+   "atif_gerekli": [
+    "OECD Health at a Glance (harcama karşılaştırması)",
+    "DSÖ sağlık harcamaları veri tabanı"
+   ],
+   "atif": []
+  },
+  {
+   "kategori": "Kalkınma",
+   "baslik": "Aralık Kira Artışı ve Kiracının Hesabı",
+   "tez": "Kira artış oranı yalnızca bir yasal sınır değil; konut piyasasında arz, gelir ve enflasyon beklentilerinin birleştiği noktadır. Kiracı ve ev sahibini aynı tablo üzerinden anlamak, tartışmayı sakinleştirir.",
+   "kanca": "Aralık ayı kira artış oranının ne zaman açıklanacağı soruluyor; oran TÜFE verisine bağlı olarak 3 Aralık’tan sonra netleşiyor.",
+   "acilis": "Aynı apartmanda oturan bir kiracı ile ev sahibinin aylık hesabıyla başlayın.",
+   "zaman": "3-5 Aralık",
+   "gundem": [
+    {
+     "tur": "tarih",
+     "metin": "Tüketici Fiyat Endeksi (TÜFE), Kasım 2026",
+     "tarih": "2026-12-03"
+    }
+   ],
+   "rakam": [
+    "12 aylık TÜFE ortalaması (TÜİK, kira artışı hesabına temel)",
+    "Hanehalkı gelirinde konut payı (TÜİK Gelir ve Yaşam Koşulları)"
+   ],
+   "dikkat": "Yasal sınırlamanın geçerli olup olmadığını güncel mevzuattan kontrol edin; hukuki tavsiye vermeyin.",
+   "atif_gerekli": [
+    "Konut ve kira üzerine OECD ya da Dünya Bankası karşılaştırması",
+    "TÜİK Konut Birim Fiyat İstatistikleri"
+   ],
+   "atif": []
+  },
+  {
+   "kategori": "Kalkınma",
+   "baslik": "Gıda Fiyatlarında Yeni Riskler ve Sofranın Hesabı",
+   "tez": "Küresel gıda fiyatları, yerel enflasyonun en az kontrol edilebilen parçasıdır. Okur için anlamlı olan, hangi gıdada dış fiyatların, hangisinde yerel arzın belirleyici olduğunu ayırt etmektir.",
+   "kanca": "Dünya Bankası, 2027 için gıda fiyatlarında üst üste binen şoklara ve yukarı yönlü risklere dikkat çeken bir değerlendirme yayımladı.",
+   "acilis": "Bir pazar sepetindeki ürünleri 'ithal girdili' ve 'yerli girdili' diye ikiye ayırarak açın.",
+   "zaman": "TÜFE açıklanırken (3 Aralık)",
+   "gundem": [
+    {
+     "tur": "yayin",
+     "metin": "Global food prices 2027: overlapping shocks and upside risks",
+     "kaynak": "Dünya Bankası",
+     "tarih": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzZkcmpENUhRLVJYVzBYZm5ncWhUd3M3T1ZfcDZ1YjFtdTc0TGFkUEFXdTVpbWgwOXdxQzF4cUl4d1B0MmY1SDA0akI1Skd2eWVwSnN2WjV5amlZVmx2QkNBbmxYSERQa0ZzZWlyM0h0WjhNeHA1RDkxM2RSa1hWWFAwZFVPUjRyZnlacEZud0NGMmVic0hocU9WNURZU2c1MzRyZVNR?oc=5"
+    },
+    {
+     "tur": "yayin",
+     "metin": "Beverage prices ease as supply prospects improve",
+     "kaynak": "Dünya Bankası",
+     "tarih": "2026-11-19",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOURYUVNRMkdSdnluU0RhckRXRHdreUZUNlVmLTZiTlpncHBOX0U0dVhUS3dzUUlEbnF0MzdCSmpGYXZJbG1hSmpkc3Y3aEVCWkxUNC1YbnkyVTNDOUtiS3Y0UUNBSFlwVTZXZ2h6akNRTnpFZS1kb2dsaEtsZU9FRElTNHhRYUZpQnZrWXFPMzNSZw?oc=5"
+    },
+    {
+     "tur": "tarih",
+     "metin": "Tüketici Fiyat Endeksi (TÜFE), Kasım 2026",
+     "tarih": "2026-12-03"
+    }
+   ],
+   "rakam": [
+    "Gıda enflasyonunun TÜFE içindeki payı (TÜİK)",
+    "Dünya Bankası gıda fiyat endeksindeki değişim (yayından teyit edin)"
+   ],
+   "dikkat": "Dünya Bankası yazısının tam metnini açıp rakamı oradan alın; başlıktan çıkarım yapmayın.",
+   "atif": [
+    {
+     "baslik": "Global food prices 2027: overlapping shocks and upside risks",
+     "kurum": "Dünya Bankası",
+     "tur": "uluslararası kuruluş",
+     "yil": 2026,
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzZkcmpENUhRLVJYVzBYZm5ncWhUd3M3T1ZfcDZ1YjFtdTc0TGFkUEFXdTVpbWgwOXdxQzF4cUl4d1B0MmY1SDA0akI1Skd2eWVwSnN2WjV5amlZVmx2QkNBbmxYSERQa0ZzZWlyM0h0WjhNeHA1RDkxM2RSa1hWWFAwZFVPUjRyZnlacEZud0NGMmVic0hocU9WNURZU2c1MzRyZVNR?oc=5"
+    }
+   ],
+   "atif_gerekli": [
+    "FAO Gıda Fiyat Endeksi"
    ]
   }
- ],
- "kuruluslardan_yararlanildi": true
+ ]
 }

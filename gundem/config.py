@@ -24,6 +24,35 @@ RSS_SOURCES = [
     ("arXiv cs.CY", "yz", "https://export.arxiv.org/rss/cs.CY"),
 ]
 
+
+# Panelde yalnızca bu kaynaklardan gelen haberler gösterilir (yerel, spor, kulüp, parti, belediye, yabancı dilli
+# ve bilinmeyen siteler panele girmez). Ad, küçük harfe çevrilip "|" öncesine kısaltılarak karşılaştırılır.
+HABER_KAYNAKLARI = {
+    # ajans ve ulusal haber
+    "anadolu ajansı", "aa güncel", "aa ekonomi", "aa", "trt haber", "anka haber", "dha", "ihlas haber ajansı",
+    "hürriyet", "hürriyet gündem", "sabah", "milliyet", "cumhuriyet", "sözcü gazetesi", "habertürk", "cnn türk",
+    "cnn türk finans", "ntv haber", "ntv gündem", "ntv ekonomi", "ntv sağlık", "ntv eğitim", "yeni şafak", "a haber",
+    "karar", "t24", "bianet", "diken", "medyascope", "independent türkçe", "evrensel", "evrensel.net", "birgün gazetesi",
+    "posta", "dünya gazetesi", "türkiye gazetesi", "aydınlık",
+    # uluslararası
+    "bbc", "bbc world", "bbc türkçe", "dw.com", "dw türkçe", "euronews", "euronews.com", "reuters", "bloomberg",
+    "financial times", "the economist", "associated press", "the guardian", "cnbc", "al jazeera",
+    # ekonomi ve iş dünyası
+    "cnbc-e", "bloomberght", "ekonomim", "ekonomi gazetesi", "gazete oksijen", "istanbul ticaret gazetesi",
+    "i̇stanbul ticaret gazetesi", "uzmanpara", "investing.com türkiye", "foreks.com", "bigpara", "a para", "para analiz",
+    "doviz.com", "forbes türkiye", "marketing türkiye", "sanayi gazetesi", "ekonomi gazetesi",
+    # teknoloji ve yapay zekâ
+    "webrazzi", "unite.ai",
+    # resmî kurum (ek olarak aşağıdaki ifadelerden biri geçen adlar da kabul edilir)
+    "tbmm", "meb", "veri portalı - tüik", "tüik", "tcmb",
+}
+HABER_KAYNAK_IFADELERI = ("bakanlığı", "bakanlık", "tüik", "merkez bankası", "cumhurbaşkanlığı", "sgk", "hazine")
+
+
+def haber_kaynagi_uygun(kaynak: str) -> bool:
+    k = (kaynak or "").lower().split("|")[0].strip()
+    return k in HABER_KAYNAKLARI or any(i in k for i in HABER_KAYNAK_IFADELERI)
+
 # Sosyal gündem vekilleri (X API ücretli olduğu için)
 GOOGLE_TRENDS = [("Google Trends TR", "TR"), ("Google Trends ABD", "US")]
 WIKI_PROJECTS = [("Vikipedi TR", "tr.wikipedia"), ("Wikipedia EN", "en.wikipedia")]

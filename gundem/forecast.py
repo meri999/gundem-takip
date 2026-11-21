@@ -15,7 +15,9 @@ def load_items(days: int = 90) -> pd.DataFrame:
     df["published"] = pd.to_datetime(df["published"], utc=True, errors="coerce")
     df["day"] = df["published"].dt.tz_convert("Europe/Istanbul").dt.date
     cutoff = date.today() - timedelta(days=days)
-    return df[df["day"] >= cutoff]
+    df = df[df["day"] >= cutoff]
+    from .config import haber_kaynagi_uygun
+    return df[df["source"].apply(haber_kaynagi_uygun)]
 
 
 def load_thinktank(days: int = 14, tablo: str = "thinktank", koru: str = "", koru_gun: int = 90) -> pd.DataFrame:
