@@ -336,7 +336,6 @@ if secim == HAFTALIK:
         if ad in tt7:
             kart += '<div class="alt">THINK-TANK YAYINLARI (SON 7 GÜN)</div>' + yayin_satirlari(tt7[ad], 4, ozet=False, etiket=False)
         st.markdown(kart + "</div>", unsafe_allow_html=True)
-    gecmis_bolumu("hafta")
     st.stop()
 
 # ====================================================================== KONU SAYFASI
