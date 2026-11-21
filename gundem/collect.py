@@ -134,11 +134,15 @@ def main():
     from .events import collect_genel_kurul, collect_komisyon, collect_tuik_takvim
     from .thinktank import collect_thinktank
     from .kurulus import collect_kurulus
+    from .resmi import collect_hazine, collect_tcmb, collect_tuik_yayinlari
     with connect() as con:
         collect_rss(con)
         safe("TBMM Genel Kurul", collect_genel_kurul, con)
         safe("TBMM Komisyon", collect_komisyon, con)
         safe("TÜİK takvim", collect_tuik_takvim, con)
+        safe("TCMB duyuruları", collect_tcmb, con)
+        safe("Hazine duyuruları", collect_hazine, con)
+        safe("TÜİK bültenleri", collect_tuik_yayinlari, con)
         safe("Think-tank", collect_thinktank, con)
         safe("Kuruluş yayınları", collect_kurulus, con)
         retag(con)

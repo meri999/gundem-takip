@@ -44,14 +44,25 @@ HABER_KAYNAKLARI = {
     # teknoloji ve yapay zekâ
     "webrazzi", "unite.ai",
     # resmî kurum (ek olarak aşağıdaki ifadelerden biri geçen adlar da kabul edilir)
-    "tbmm", "meb", "veri portalı - tüik", "tüik", "tcmb",
+    "tbmm", "meb", "veri portalı - tüik", "tüik", "tcmb", "hazine ve maliye bakanlığı",
 }
 HABER_KAYNAK_IFADELERI = ("bakanlığı", "bakanlık", "tüik", "merkez bankası", "cumhurbaşkanlığı", "sgk", "hazine")
 
 
+def _katla(s: str) -> str:
+    """Büyük/küçük harf ve noktalı/noktasız i farkını yok sayar."""
+    return (s or "").replace("İ", "i").replace("I", "i").lower().replace("ı", "i").replace("i̇", "i")
+
+
+_KAYNAK_NORM = None
+
+
 def haber_kaynagi_uygun(kaynak: str) -> bool:
-    k = (kaynak or "").lower().split("|")[0].strip()
-    return k in HABER_KAYNAKLARI or any(i in k for i in HABER_KAYNAK_IFADELERI)
+    global _KAYNAK_NORM
+    if _KAYNAK_NORM is None:
+        _KAYNAK_NORM = {_katla(x) for x in HABER_KAYNAKLARI}
+    k = _katla(kaynak).split("|")[0].strip()
+    return k in _KAYNAK_NORM or any(_katla(i) in k for i in HABER_KAYNAK_IFADELERI)
 
 # Sosyal gündem vekilleri (X API ücretli olduğu için)
 GOOGLE_TRENDS = [("Google Trends TR", "TR"), ("Google Trends ABD", "US")]
@@ -69,10 +80,11 @@ TOPICS = {
     "Ekonomi ve enflasyon": ["enflasyon", "faiz", "merkez bankası", "bütçe", "tüfe", "=zam",
                              "=zammı", "=zamlar", "ekonomi", "inflation", "interest rate", "=gdp", "büyüme",
                              "orta vadeli program", "hasıla", "fiyat endeks", "güven endeks",
-                             "reel getiri", "sanayi üretim", "politika faiz", "faiz karar", "vergi", "kamu borç"],
+                             "reel getiri", "sanayi üretim", "politika faiz", "faiz karar", "vergi", "kamu borç", "kapasite kullanım", "reel kesim", "iktisadi yönelim",
+                             "nakit gerçekleşme", "borç stoku", "para ve banka", "mevduat", "kredi", "tahvil", "enflasyon raporu"],
     "Döviz ve dış denge": ["=dolar", "=euro", "döviz kuru", "kur hareket", "=altın", "borsa", "cari açık",
                            "petrol fiyat", "brent", "ham petrol", "rezerv", "dış borç", "=cds", "ödemeler dengesi",
-                           "exchange rate", "current account", "=lira", "türk lirası"],
+                           "exchange rate", "current account", "=lira", "türk lirası", "yatırım pozisyon", "efektif"],
     "Yaşam maliyeti ve gelir": ["geçim", "hayat pahalılığı", "yaşam maliyeti", "gıda fiyat", "kira artış",
                                "asgari ücret", "gelir dağılımı", "cost of living", "alım gücü", "harcama"],
     "Yoksulluk ve sosyal koruma": ["yoksulluk", "sosyal yardım", "sosyal koruma", "eşitsizlik", "poverty",

@@ -66,4 +66,6 @@ X API, TBMM tutanak ve soru önergesi metinleri, konu modeli (BERTopic), günlü
 ## Haber kaynakları
 Panelde yalnızca `gundem/config.py` içindeki `HABER_KAYNAKLARI` listesindeki kaynaklardan (ajanslar, ulusal gazete ve televizyonlar, ekonomi medyası, uluslararası yayınlar, resmî kurumlar) gelen haberler görünür. Yerel siteler, spor ve kulüp siteleri, parti ve belediye siteleri ve yabancı dilli kaynaklar veritabanına girer ama panele çıkmaz. Yeni kaynak eklemek için listeyi düzenleyin.
 
+TCMB, TÜİK ve Hazine ve Maliye Bakanlığı duyuruları doğrudan kaynağından toplanır (`gundem/resmi.py`): TCMB'nin beş RSS beslemesi (basın duyuruları, PPK kararları, veriler, yayınlar, başkan konuşmaları), Hazine'nin site API'si (ihale, sınav ve ilan duyuruları hariç) ve TÜİK'in son 14 günde yayımlanan bültenleri. Bunlar haber gibi görünür ve ilgili kategori sayfalarında çıkar.
+
 Geliştirici: Meryem Türel, 2026
