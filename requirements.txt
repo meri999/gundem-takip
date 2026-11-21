@@ -1,0 +1,7 @@
+streamlit
+feedparser
+pandas
+requests
+statsmodels
+plotly
+python-docx
