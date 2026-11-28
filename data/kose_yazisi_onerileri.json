@@ -1,25 +1,25 @@
 {
- "hazirlanma": "2026-11-21",
+ "hazirlanma": "2026-11-28",
  "oneriler": [
   {
    "kategori": "Makroekonomi",
-   "baslik": "Merkez Bankası Rezervleri ve Döviz Piyasasının Hassas Dengesi",
-   "tez": "Rezerv düşüşü tek başına bir alarm değildir; hangi nedenle, ne kadar sürede ve hangi göstergelerle birlikte düştüğüne bakılarak okunur. Okur için asıl soru, rezervin ne işe yaradığıdır.",
-   "kanca": "Merkez Bankası rezervlerinin 2 milyar dolar azaldığı haberi çıktı; önümüzde Fed kararı ve yeni enflasyon verisi var.",
-   "acilis": "Rezervi evin acil durum tasarrufuna benzetip 'kaç ay idare eder' sorusundan başlayın.",
-   "zaman": "Bu hafta; TÜFE açıklanmadan (3 Aralık) önce",
+   "baslik": "Kasım Enflasyonu Açıklanmadan Önce: Tahminler Neden Hep Aynı Yöne Sapıyor?",
+   "tez": "Aylık enflasyon tahminlerinin tutup tutmaması kadar, hangi kalemde yanıldığımız önemlidir. Sapmanın kaynağı hizmetlerse, bu politika faizinin çalışma biçimi hakkında bir şey söylüyor demektir.",
+   "zaman": "3 Aralık TÜFE açıklanmadan önce",
    "gundem": [
     {
      "tur": "haber",
-     "metin": "Merkez Bankası rezervleri 2 milyar dolar azaldı",
-     "kaynak": "Türkiye Gazetesi",
-     "tarih": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZndtTU8zeXRwUVlST05PSm5zVjlPZDIwdmdkbzZNaXMtSHlfc29jSXlBUHpLZDBabEdzLTBiNzJ6Vy15cUNuQzA2Wk51UXJFV2VLRU9FRHNlcC1LQ2NLSkYwU0NVWHZTbGRFOG9oVlJ6MFBRZ1E5dWRlLVRCMXRfYzVOUy1COUY3V1Jsd0g0MDh4NjZhZmJwNDE1N0RRXzg?oc=5"
+     "metin": "JPMorgan TCMB tahminlerini değiştirdi",
+     "kaynak": "BloombergHT",
+     "tarih": "2026-11-27",
+     "link": "https://www.bloomberght.com/jpmorgan-tcmb-tahminlerini-degistirdi-3795959"
     },
     {
-     "tur": "tarih",
-     "metin": "ABD Merkez Bankası (Fed) faiz kararı (toplantı 8-9 Aralık)",
-     "tarih": "2026-12-09"
+     "tur": "haber",
+     "metin": "Merkez bankaları yeniden faiz artışı kıskacında",
+     "kaynak": "BloombergHT",
+     "tarih": "2026-11-27",
+     "link": "https://www.bloomberght.com/merkez-bankalari-yeniden-faiz-artisi-kiskacinda-3795942"
     },
     {
      "tur": "tarih",
@@ -27,236 +27,161 @@
      "tarih": "2026-12-03"
     }
    ],
+   "kanca": "Veri gelmeden bir hafta önce bankaların tahminlerini yan yana koyup aradaki farkı konu yapın.",
+   "acilis": "Geçen ayın beklenti ile gerçekleşme farkını açıp 'Bu fark bize ne söylüyor?' sorusuyla başlayın.",
    "rakam": [
-    "Haberdeki 2 milyar dolarlık düşüş (haberden alın, hangi haftaya ait olduğunu yazın)",
-    "Toplam rezervin ithalatın kaç ayına yettiği (TCMB haftalık verisinden hesaplayın, yazmadan önce teyit edin)"
+    "JPMorgan'ın değişen tahmini (ayrıntıyı haberi açıp teyit edin)",
+    "Son üç ayın beklenti ve gerçekleşme farkı (TÜİK ve TCMB anketinden teyit edin)"
    ],
-   "dikkat": "Rezerv düşüşünü tek nedene bağlamayın; haftalık verinin altın fiyatı ve kur değişimlerinden etkilendiğini not edin. Piyasa tahmini vermeyin.",
+   "dikkat": "Kendi enflasyon tahmininizi rakamla vermeyin.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "TCMB haftalık rezerv tablosu (resmî veri)",
-    "Rezerv yeterliliği üzerine bir akademik ya da IMF çalışması"
-   ],
-   "atif": []
+    "TCMB Piyasa Katılımcıları Anketi",
+    "TÜİK Kasım TÜFE bülteni (3 Aralık sonrası)"
+   ]
   },
   {
    "kategori": "Makroekonomi",
-   "baslik": "Aralık’ta Açıklanacak Enflasyon Rakamı Neyi Belirleyecek?",
-   "tez": "Kasım enflasyonu yalnızca bir fiyat verisi değildir; emekli ve memur zammı ile asgari ücret beklentilerinin üzerine kurulduğu zemindir. Okur rakamı görünce hangi soruları sormalı?",
-   "kanca": "TÜFE 3 Aralık’ta açıklanıyor; aynı günlerde 2027 asgari ücret ve emekli zammı tartışmaları sürüyor, AB Türkiye’nin enflasyon tahminini yükseltti.",
-   "acilis": "Rakam açıklanmadan önce evde kimlerin hangi zamma baktığını sayarak başlayın.",
-   "zaman": "2-3 Aralık",
+   "baslik": "Üçüncü Çeyrek Büyümesi: Rakamın Altında Ne Var?",
+   "tez": "Büyüme oranı tek başına refah haberi değildir. Tüketim, yatırım ve net ihracat bileşenlerine bakmadan o rakamdan iyi ya da kötü haber çıkarmak zordur.",
+   "zaman": "1 Aralık GSYH açıklanmadan önce",
    "gundem": [
     {
-     "tur": "haber",
-     "metin": "AB, Türkiye’nin enflasyon tahminini yükseltti",
-     "kaynak": "Habertürk",
-     "tarih": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT3lQUkZCRHVpUkk2bDZMNkFRSHhUZnh6NEdyQVF0NmtSeHJyZktMMG11Sjl0ekVsblQ2LWI2Mzc2NTdvSDN6ZkRTb0RHb01sUjUwNzl6RXRRTm5DNld3cE55QlRidjlOVWREamxfN1RsZ0o2YUNoc3A4Q3BORklucGFLaWJ0SVVuVkZvSW9B?oc=5"
-    },
-    {
-     "tur": "haber",
-     "metin": "Emekli maaşlarına refah payı sürprizi! Prim gününe göre yeni formül",
-     "kaynak": "CNN Türk Finans",
-     "tarih": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZDUySmVGQXBMeUJ3ak9uMVhNTHBXcDJSb094MzV4aWV3V0xFNGM5T0dJa3dxTlNfdjNhM2lpWHYwZFlPelJWNkc1MGxtZ2wwVmwxN2lyMmR1STQ4bkN0NTZGM3NLakxaME1vWmNLQXZBVWd1LU4wZ3B2YVBIdUN1MGthajk4SHY0eWRKdi02RjBUaHVFT3Z5NHRjQjlLMTBaalAzbkpyWDl5czNFeXRKeWJlbGM2SDQwOFE?oc=5"
-    },
-    {
      "tur": "tarih",
-     "metin": "Tüketici Fiyat Endeksi (TÜFE), Kasım 2026",
-     "tarih": "2026-12-03"
+     "metin": "Dönemsel Gayrisafi Yurt İçi Hasıla (3. çeyrek)",
+     "tarih": "2026-12-01"
     },
     {
      "tur": "yayin",
-     "metin": "A Quarter Century of Inflation Targeting in Latin America: Progress, Challenges, and the Road Ahead",
-     "kaynak": "IMF",
-     "tarih": "2026-11-18",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSG9VWUtVZV9KUWdjQy1TX0daZFpzOFFoQnBadkd6eWlPbHg0OWpVTk4tQmN1RmZDWUtoOVVkUjZPbUFRV1B0ZVJGYWpUc0tEUVBkSG5SVm9NenM5OEswMFl3RDQ4MkhJWS1kSGg4TzNHdVVNWUwyR2xJQzJac2FQT3FnRnNPbEJLYTR2RV9qamxEazFWR1ZTVnYxZmVKOHdocldnU1Y5Zw?oc=5"
-    }
-   ],
-   "rakam": [
-    "Son TÜFE yıllık değişimi (TÜİK bülteninden)",
-    "AB’nin yükselttiği tahmin rakamı (haberdeki kaynaktan teyit edin)"
-   ],
-   "dikkat": "Zam oranı tahmini yazmayın; yalnızca resmî veri ve açıklanmış beklentileri aktarın.",
-   "atif": [
+     "metin": "İmalat Sanayi Kapasite Kullanım Oranı (Kasım 2026)",
+     "kaynak": "TCMB",
+     "tarih": "2026-11-20",
+     "link": "https://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/istatistikler/reel+sektor+istatistikleri/imalat+sanayi+kapasite+kullanim+orani"
+    },
     {
-     "baslik": "A Quarter Century of Inflation Targeting in Latin America: Progress, Challenges, and the Road Ahead",
-     "kurum": "IMF",
-     "tur": "uluslararası kuruluş",
-     "yil": 2026,
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSG9VWUtVZV9KUWdjQy1TX0daZFpzOFFoQnBadkd6eWlPbHg0OWpVTk4tQmN1RmZDWUtoOVVkUjZPbUFRV1B0ZVJGYWpUc0tEUVBkSG5SVm9NenM5OEswMFl3RDQ4MkhJWS1kSGg4TzNHdVVNWUwyR2xJQzJac2FQT3FnRnNPbEJLYTR2RV9qamxEazFWR1ZTVnYxZmVKOHdocldnU1Y5Zw?oc=5"
+     "tur": "haber",
+     "metin": "Kasım ayında ekonomik güven endeksi arttı",
+     "kaynak": "BloombergHT",
+     "tarih": "2026-11-27",
+     "link": "https://www.bloomberght.com/kasim-ayinda-ekonomik-guven-endeksi-artti-3795905"
     }
    ],
+   "kanca": "Rakam gelmeden 'hangi üç soruyu soracağım' listesini yazın.",
+   "acilis": "Aynı büyüme oranının iki farklı ekonomiyi anlatabileceğini bir örnekle gösterin: tüketim destekli ve yatırım destekli büyüme.",
+   "rakam": [
+    "Çeyrek büyüme oranı ve harcama bileşenleri (TÜİK bülteninden)",
+    "Kapasite kullanımının uzun dönem ortalaması (TCMB'den teyit edin)"
+   ],
+   "dikkat": "Güven endeksindeki artışı büyüme sinyali gibi sunmayın; ikisi farklı şeyleri ölçer.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "TÜİK Tüketici Fiyat Endeksi bülteni (Kasım 2026, 3 Aralık)"
+    "TÜİK GSYH bülteni (1 Aralık)",
+    "TCMB kapasite kullanım serisi"
+   ]
+  },
+  {
+   "kategori": "Makroekonomi",
+   "baslik": "2027 Bütçesi Komisyondan Geçti: Faiz Giderleri ve Vergi Gelirleri Nasıl Okunur?",
+   "tez": "Bütçede en çok tartışılan kalem çoğu zaman en az anlaşılan kalemdir. Faiz giderlerinin payı ile vergi gelirlerinin bileşimi, bütçenin hangi tercihleri yaptığını gösterir.",
+   "zaman": "Genel Kurul görüşmeleri öncesi",
+   "gundem": [
+    {
+     "tur": "haber",
+     "metin": "2027 bütçesi komisyondan geçti",
+     "kaynak": "BloombergHT",
+     "tarih": "2026-11-27",
+     "link": "https://www.bloomberght.com/2027-butcesi-komisyondan-gecti-3795986"
+    },
+    {
+     "tur": "haber",
+     "metin": "Konaklama vergisinin 2027 sonuna kadar yüzde 1 olarak uygulanmasına devam edilecek",
+     "kaynak": "AA Ekonomi",
+     "tarih": "2026-11-28",
+     "link": "https://www.aa.com.tr/tr/ekonomi/konaklama-vergisinin-2027-sonuna-kadar-yuzde-1-olarak-uygulanmasina-devam-edilecek/4141116"
+    }
+   ],
+   "kanca": "Komisyondan çıkan metinde tek bir kalemi seçip paranın nereden gelip nereye gittiğini izleyin.",
+   "acilis": "Hane bütçesi benzetmesiyle açın: gelir, zorunlu giderler ve geriye kalan hareket alanı.",
+   "rakam": [
+    "2027 bütçe açığı ve faiz giderleri (bütçe kanun teklifinden teyit edin)",
+    "Faiz giderlerinin bütçedeki payı (yalnızca resmî metinden alın)"
+   ],
+   "dikkat": "Bütçeyi iyi ya da kötü diye etiketlemeyin; tercihleri ve bedellerini gösterin.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
+   "atif_gerekli": [
+    "2027 Merkezi Yönetim Bütçe Kanunu Teklifi gerekçesi",
+    "Orta Vadeli Program"
    ]
   },
   {
    "kategori": "Emek piyasası",
-   "baslik": "2027 Asgari Ücretini Konuşurken Hangi Soruları Sormalı?",
-   "tez": "Asgari ücret zammı tartışması çoğunlukla 'yüzde kaç' sorusuna sıkışıyor. Oysa asıl belirleyici, kaç kişinin bu ücretle çalıştığı ve zammın işverene, fiyatlara ve kayıt dışılığa nasıl yansıdığıdır.",
-   "kanca": "Asgari Ücret Tespit Komisyonu’nun toplanma tarihi bekleniyor; basında üç farklı senaryo dolaşıyor.",
-   "acilis": "Aynı ücreti alan üç farklı çalışanın (genç, ev kadını, esnaf çırağı) gündelik hesabıyla açın.",
-   "zaman": "Komisyon toplanmadan önce; 30 Kasım İşgücü İstatistikleri ile birlikte",
+   "baslik": "Ekim Ayı İşgücü Verisi: İşsizlik Oranı Neyi Saklıyor?",
+   "tez": "Manşet işsizlik oranı düşük kalırken geniş tanımlı atıl işgücü ve kayıt dışılık başka bir hikâye anlatabilir. Okura hangi göstergeyi neden izlemesi gerektiğini söylemek asıl katkıdır.",
+   "zaman": "30 Kasım işgücü verisiyle",
    "gundem": [
-    {
-     "tur": "haber",
-     "metin": "Asgari Ücret Tespit Komisyonu toplantıları ne zaman? 2027 Asgari ücret ne kadar olacak?",
-     "kaynak": "Cumhuriyet",
-     "tarih": "2026-11-17",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQczR2U1dkaXNwX0dPTndrelFnclZnRjAtN0R0ZnJPQ3UwSkU5bnI1R3FhSGxzeWZhbWR1SVN2aVdNSE9sN3V3QTQ1bHl4Z0U2bVUwbGlzMXk5Q1dhMFQ0V0pTbVhxMmpmTi12cHlwOWJkTEdrVG9KT1dYcUpJd1N3ZHYzX2k0YzVRdmRpLWxCenUtZGZYX1g0N0ZtRExDRDd6b0U4V2gwN0pPRm1wcXhHZFh1dHRZdzlMaDlBVDNDTjJ1c203SjhtTXN5aw?oc=5"
-    },
-    {
-     "tur": "haber",
-     "metin": "ASGARİ ÜCRET ZAMMI 2027: Yeni ücret zammı için 4 farklı senaryo! 2027 asgari ücret ne kadar olacak?",
-     "kaynak": "İstanbul Ticaret Gazetesi",
-     "tarih": "2026-11-10",
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaU9waUlybHdRd084S2NWYXJKR3dCX3dLNDN1aGFoeGlEREpXY3ZEVktOcDZ5VUlid3VxY05KVkNtajA3SUVpVHlpLUdMdC11d1ZzWmo2RDRMZTJmdGF5R0tEcTFheEZxNm5ic19sNlQxYXB0ekRubnA0ZzZZRzVGQVZCOWVENWpqMHBIRWhhUXRfUnl0dUlzbWZ0NWgycm1OMDV4eFRfYjZtY2JsajlMVUc0Ql95Yzh1WklobExZdjhzYmlSV3h5VUFLX3o?oc=5"
-    },
-    {
-     "tur": "haber",
-     "metin": "SGK uzmanından 2027 asgari ücret hesabı: Zam oranı ne olacak?",
-     "kaynak": "Aydınlık",
-     "tarih": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdnJCVmFZWXJKem8zcmNUTk5Ob05NcnNZRGdSMUllWVo1Y3hSbkZUQWo2Wk5Rb3ZiUVl6Wllha1B3SWNfR3B5U2Njcnk2ZVpsRHlGeEQ3N1pydGYxWVN0aEt5b0ZYODlKMFNxTXAtSUg1Z19wT0s5Zy13NGhzUjMzeUZvcEo4MW8yY0pHNmpEY3RZSUVoZzhQRnRiaktmOWlvMWc?oc=5"
-    },
     {
      "tur": "tarih",
      "metin": "İşgücü İstatistikleri (Ekim 2026)",
      "tarih": "2026-11-30"
-    }
-   ],
-   "rakam": [
-    "Asgari ücretle çalışan kişi sayısı (SGK ya da Çalışma Bakanlığı verisi)",
-    "Ekim ayı işsizlik ve işgücüne katılım oranları (30 Kasım bülteni)"
-   ],
-   "dikkat": "Üç senaryodaki rakamlar basın tahminidir; karar çıkana kadar 'olacak' diye yazmayın.",
-   "atif_gerekli": [
-    "Asgari ücretin istihdam etkisi üzerine akademik çalışma (işgücü iktisadı literatürü)",
-    "TÜİK İşgücü İstatistikleri bülteni"
-   ],
-   "atif": []
-  },
-  {
-   "kategori": "Demografi",
-   "baslik": "Emeklilik Yaşı Tartışması ve Yaşlanan Nüfus",
-   "tez": "Kademeli emeklilik teklifi, bir yaş tablosundan çok nüfus yapısının değiştiğini hatırlatıyor: çalışan sayısı ile emekli sayısı arasındaki oran, sistemin mali dengesini belirleyen temel göstergedir.",
-   "kanca": "Kademeli emeklilik kanun teklifi Meclis’te; aynı günlerde emekli zammı ve refah payı tartışmaları sürüyor.",
-   "acilis": "Bir emekli ile bir genç çalışanın aylık hesabını yan yana koyarak başlayın.",
-   "zaman": "Teklif komisyondayken",
-   "gundem": [
-    {
-     "tur": "haber",
-     "metin": "Kademeli emeklilik kanun teklifi Meclis’te: Kimler, kaç yaşında emekli oluyor?Kademeli emeklilik yaş tablosu açıklandı",
-     "kaynak": "Yeni Şafak",
-     "tarih": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNRVItczF0eDJEUDQweTJ4cFJSWVA0T1FvZ0RDelg4QndBRzdqSERPSjNWQzRmRV9HM0Rrc1ZNZ0dIQzVIS2E5TmpDaGR0U2JsVDhadko4UnE0Vzl3TnlaVXQtemc1UDJrdnk0V3drTTU4UnN6NnZkazZQY1dVS2FhaVVjMkRFZ1BXSUcxaDhJRnFsdm9qZ1lkbWFiajZrY0NRbk4yMjd5aWF5QmRsWWItQmdQV1FacE11bXRwUVdqSXhnWmRkakk5VUlHdExnR1JTM0ZZeUgtcFJid29yV2pEQnFsNnIyTmdxSjMxODd1MzlWUmpj?oc=5"
-    },
-    {
-     "tur": "haber",
-     "metin": "EMEKLİ ZAMMI 2027 SON DAKİKA! Emekliye kademeli ek zam geliyor! İşte 12 soruda tüm merak edilenler",
-     "kaynak": "Sabah",
-     "tarih": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTjFLQnVoNkNGSG5lU19BUng0Ym9Iamtrek9SS1c1dV9xbGR2TVk0OGFRN1lNS1gydTFuQ3JOWjczb1diWDN6SVFLY0lTeU5EUS1hdllxVUNWbTVaa0w1UHF4am9tZFd5bDFLT3Zucm4wc05pdkRSb3Zvb19TODdsc1QzVTROMnBiUHVEUDdvUHdsUDc0WjZ1SHpqS0tWZHFEcTN3Qmd5dDJjRHptYV9hYXhHSloyWWRZTDVxNGVUUDVjVmtzOF9mM2NlemhxZDlCS182N3BySU9sd9IB3AFBVV95cUxQTHlDd2RJdmZHczUtUFFxU3dnUjhFSjBqQmlTa2lGQzRSRVpWTXhtbVNIYnpLZHVOUHQ3M19KZ0gyOVZlanBlNzl2dHJqQVg0M2pNT0h1LTFtV2t4TTJuNTU4YVY3MnZWdUc5ai1FVGtXNDFiRlV6ZzFtX0dRdXlfc0xweVhvd2Z3N1JaM3lWelltRDlBZ0pWd0hoNHV2c2ptcEpzSGMwTkhidFl5dWZHbnVKSFhoXzFJOWJWQTFGQ3ZORTdEdms4dHp4N0thU29pNkdkT3llR0RRT3Fi?oc=5"
-    },
-    {
-     "tur": "haber",
-     "metin": "Emekli maaşlarına refah payı sürprizi! Prim gününe göre yeni formül",
-     "kaynak": "CNN Türk Finans",
-     "tarih": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZDUySmVGQXBMeUJ3ak9uMVhNTHBXcDJSb094MzV4aWV3V0xFNGM5T0dJa3dxTlNfdjNhM2lpWHYwZFlPelJWNkc1MGxtZ2wwVmwxN2lyMmR1STQ4bkN0NTZGM3NLakxaME1vWmNLQXZBVWd1LU4wZ3B2YVBIdUN1MGthajk4SHY0eWRKdi02RjBUaHVFT3Z5NHRjQjlLMTBaalAzbkpyWDl5czNFeXRKeWJlbGM2SDQwOFE?oc=5"
-    }
-   ],
-   "rakam": [
-    "Çalışan sigortalı / emekli sayısı oranı (SGK istatistikleri)",
-    "Türkiye’de 65 yaş üstü nüfus payı (TÜİK Nüfus Projeksiyonları)"
-   ],
-   "dikkat": "Teklifin ayrıntıları değişebilir; yaş tablosunu yazmadan önce son metni kontrol edin. Duygusal dilden kaçının.",
-   "atif_gerekli": [
-    "OECD Pensions at a Glance (emeklilik yaşı karşılaştırması)",
-    "TÜİK Nüfus Projeksiyonları"
-   ],
-   "atif": []
-  },
-  {
-   "kategori": "Makroekonomi",
-   "baslik": "2027 Bütçesi Genel Kurul’a Geliyor: Kalemler Nasıl Okunur?",
-   "tez": "Bütçe rakamlarının çoğu okura soyut gelir. Üç soru yeter: devlet ne kadar topluyor, ne kadar harcıyor, farkı nasıl kapatıyor? Kalem kalem değil, oran oran okumak daha öğreticidir.",
-   "kanca": "2027 merkezi yönetim bütçesi 7 Aralık’tan itibaren Genel Kurul’da; bakanlık bütçeleri komisyondan geçiyor.",
-   "acilis": "Bütçeyi aile bütçesine çevirip 'maaş, kira, borç taksidi' üçlüsüyle açın.",
-   "zaman": "Genel Kurul görüşmeleri başlarken (7 Aralık)",
-   "gundem": [
-    {
-     "tur": "haber",
-     "metin": "Dışişleri Bakanlığının 2027 yılı bütçesi TBMM Plan ve Bütçe Komisyonunda kabul edildi",
-     "kaynak": "Anadolu Ajansı",
-     "tarih": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSGlOeHZhSGVFQ3ZVbmhnUDAtRXJPTDhkOE1ESl96R1ZDWWItUGtRTkRrazlUQzctNkpjOVZ4T0ZOajhhd3NBNTV0MGFOenRwX09xQXE3VDdOTVdaMUFTRzBCQ1NXdXQ0N3ZGUXhyZGM2Nl9ha0Z2LVRhVVJqWS1CR2wwTUVfanU3c3c2cnNXc3YzbWpFelJVTkkwX09NdmI2YXVlTU8tSzhmdHJx?oc=5"
     },
     {
      "tur": "tarih",
-     "metin": "Genel Kurul: 2027 Merkezi Yönetim Bütçesi görüşmeleri",
-     "tarih": "2026-12-07"
+     "metin": "Ücretli Çalışan İstatistikleri",
+     "tarih": "2026-12-15"
     }
    ],
+   "kanca": "Veri açıklandığı sabah dört göstergeyi yan yana koyan kısa bir yazı.",
+   "acilis": "Okura 'İşsiz kimdir?' sorusunu sorup tanımın nasıl işlediğini adım adım gösterin.",
    "rakam": [
-    "Bütçe açığının milli gelire oranı (Orta Vadeli Program / bütçe gerekçesi)",
-    "Faiz giderlerinin bütçedeki payı (Hazine ve Maliye Bakanlığı verisi)"
+    "Manşet işsizlik, geniş tanımlı atıl işgücü, istihdam oranı ve işgücüne katılım (açıklanmadan yazmayın, TÜİK bülteninden alın)"
    ],
-   "dikkat": "Yılları karşılaştırırken aynı fiyatlarla (reel) kıyasladığınızdan emin olun.",
+   "dikkat": "Aylık dalgalanmayı eğilim gibi sunmayın; mevsimsellikten arındırılmış seriyi kullanın.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "2027 Merkezi Yönetim Bütçe Kanunu Teklifi gerekçesi (TBMM)",
-    "Bütçe okuryazarlığı üzerine IMF ya da OECD rehberi"
-   ],
-   "atif": []
+    "TÜİK İşgücü İstatistikleri bülteni",
+    "ILO işsizlik tanımları"
+   ]
   },
   {
-   "kategori": "Dış ticaret ve döviz piyasası",
-   "baslik": "Gram Altın Gerilerken Küçük Tasarruf Sahibi Ne Düşünmeli?",
-   "tez": "Altın ve borsa haberleri çoğu zaman fiyat tahminine dönüşür. Bir köşe yazısının işi tahmin vermek değil, tasarrufu etkileyen riskleri ve zaman ufkunu açıklamaktır.",
-   "kanca": "Gram altın 6 bin TL’nin altına geriledi; küresel borsalarda satış dalgası sürüyor.",
-   "acilis": "Aynı tasarrufu üç farklı ufukta (3 ay, 3 yıl, 30 yıl) düşünen üç kişiyle başlayın.",
-   "zaman": "Piyasa dalgalanırken, bu hafta",
+   "kategori": "Emek piyasası",
+   "baslik": "Asgari Ücret Pazarlığından Önce Ücret Dağılımına Bakmak",
+   "tez": "Asgari ücret tartışması rakama sıkışır. Oysa kaç kişinin asgari ücrete yakın kazandığı ve ücret dağılımının nerede toplandığı, kararın etkisini belirler.",
+   "zaman": "Aralık, ücret görüşmeleri öncesi",
    "gundem": [
     {
-     "tur": "haber",
-     "metin": "ALTINDA SERT DÜŞÜŞ SON DAKİKA: Gram altın 6 bin TL'nin altında! Altın neden düşüyor? İşte 20 Kasım güncel fiyatlar",
-     "kaynak": "İstanbul Ticaret Gazetesi",
-     "tarih": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX09FTE5vc0Y5TEVQZG9PR252VGg0bDRJNGxGUmVjTDZ6a1ViZXlRZlNVaWExeFE3a1daa0VnWmF6TW90aFFvaHZKTFljVFlNejRJYU1LV1pMOEY3NE1YTkN0clNZcms4T2NqVXJVMDJJRC0zaGxoMmNXdlhwZmJMX0hFS0FINXZMQUNMaGVZcnQxYlRPNl9SNnZGSHg4RzgtV3pQZzJ4TG1VNUpuTXZyN0Vfa0xsSTAxekh4dU56S2pNcHRxdHdvZlZpRnpZdDl2bTlIRmMxN2QwNnlRSFNR?oc=5"
-    },
-    {
-     "tur": "haber",
-     "metin": "Küresel borsalarda satış dalgası",
-     "kaynak": "BloombergHT",
-     "tarih": "2026-11-20",
-     "link": "https://www.bloomberght.com/kuresel-borsalarda-satis-dalgasi-3795224"
-    },
-    {
-     "tur": "haber",
-     "metin": "Küresel borsalarda sert satış: Yapay zeka hisseleri çakıldı",
-     "kaynak": "Dünya Gazetesi",
-     "tarih": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPXzVrcmlSVG1ENTQwcENZZkxCTEMtR2JLRTJqMVVXS3B3S2FPR0VLeGN6OXp1R0tqdG5XX0d0d1otN0hxeklBS2lnaFVad1o1ekxtcGxCR0lDZnhfamNWZDgwdHRLZmVqWXNXQ3dpaFZUNnhkMFZ0OEhBSnlORG1wRmh0bDFUMDBuNTdhTEJWVExCQ1hiVEdhNWRrUk5DRDIteG1TUw?oc=5"
+     "tur": "tarih",
+     "metin": "Ücretli Çalışan İstatistikleri",
+     "tarih": "2026-12-15"
     }
    ],
+   "kanca": "Komisyon toplanmadan önce 'artış kime ne kadar değiyor' sorusuna veriyle girin.",
+   "acilis": "Aynı artışın ücret dağılımının farklı noktalarında farklı anlam taşıdığını bir örnekle açın.",
    "rakam": [
-    "Gram altının son bir yıldaki değişimi (aralığı kaynaktan teyit edip yazın)",
-    "Hanehalkı tasarruf oranı (TÜİK ya da TCMB)"
+    "Asgari ücretle çalışanların payı (SGK ya da TÜİK verisinden teyit edin)",
+    "Reel ücretin geçen yıla göre değişimi (hesabı kendiniz yapın, yöntemi yazın)"
    ],
-   "dikkat": "Yatırım tavsiyesi vermeyin; 'alın' ya da 'satın' demeyin. Fiyatları gün ve saatle belirtin.",
+   "dikkat": "Komisyonun toplantı tarihi bu kartta yok; resmî duyuruyu bekleyin, tarih uydurmayın.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "Hanehalkı tasarruf davranışı üzerine bir akademik çalışma"
-   ],
-   "atif": []
+    "Çalışma ve Sosyal Güvenlik Bakanlığı asgari ücret duyuruları",
+    "SGK istatistik yıllığı"
+   ]
   },
   {
    "kategori": "Dış ticaret ve döviz piyasası",
-   "baslik": "Ekim Ayı Dış Ticaret Rakamı Ne Anlatır?",
-   "tez": "Dış ticaret açığı tek başına iyi ya da kötü değildir; neyin ithal edildiği (yatırım malı mı, tüketim malı mı), ihracatın hangi pazarlara gittiği ve kurun bu dengeyi nasıl etkilediği birlikte okunmalıdır.",
-   "kanca": "Ekim ayı dış ticaret istatistikleri 30 Kasım’da, endeksler 10 Aralık’ta açıklanıyor.",
-   "acilis": "Makine ithal edip ihracat yapan bir üreticiyle başlayın; 'ithalat kötüdür' kalıbını sorgulayın.",
-   "zaman": "30 Kasım-1 Aralık",
+   "baslik": "Ekim Dış Ticareti: İthalat Faturasını Ne Belirliyor?",
+   "tez": "Dış ticaret açığı tek sebeple açıklanmaz; enerji, altın ve ara malı ithalatı ayrı ayrı okunmalıdır. Bu ayrım olmadan açığın iyi ya da kötü olduğu söylenemez.",
+   "zaman": "30 Kasım dış ticaret verisiyle",
    "gundem": [
     {
      "tur": "tarih",
@@ -264,306 +189,332 @@
      "tarih": "2026-11-30"
     },
     {
-     "tur": "tarih",
-     "metin": "Dış Ticaret Endeksleri (Ekim 2026)",
-     "tarih": "2026-12-10"
+     "tur": "haber",
+     "metin": "Türkiye ile Rusya arasında 100 milyar dolarlık ticaret hedefinde mutabakat",
+     "kaynak": "BloombergHT",
+     "tarih": "2026-11-27",
+     "link": "https://www.bloomberght.com/turkiye-ile-rusya-arasinda-100-milyar-dolarlik-ticaret-hedefinde-mutabakat-3795944"
     },
     {
      "tur": "haber",
-     "metin": "Merkez Bankası rezervleri 2 milyar dolar azaldı",
-     "kaynak": "Türkiye Gazetesi",
-     "tarih": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZndtTU8zeXRwUVlST05PSm5zVjlPZDIwdmdkbzZNaXMtSHlfc29jSXlBUHpLZDBabEdzLTBiNzJ6Vy15cUNuQzA2Wk51UXJFV2VLRU9FRHNlcC1LQ2NLSkYwU0NVWHZTbGRFOG9oVlJ6MFBRZ1E5dWRlLVRCMXRfYzVOUy1COUY3V1Jsd0g0MDh4NjZhZmJwNDE1N0RRXzg?oc=5"
+     "metin": "İzmir'in iklim avantajı tekne ve yat ihracatını uçurdu",
+     "kaynak": "AA Ekonomi",
+     "tarih": "2026-11-28",
+     "link": "https://www.aa.com.tr/tr/ekonomi/izmirin-iklim-avantaji-tekne-ve-yat-ihracatini-ucurdu/4141239"
     }
    ],
+   "kanca": "Veri gelmeden bakılacak üç kalemi önceden söyleyin.",
+   "acilis": "Bir ürünün ihracatını ele alıp ithal girdisinin payını sorun.",
    "rakam": [
-    "İhracatın ithalatı karşılama oranı (TÜİK bülteni)",
-    "Ara malı ve yatırım malı ithalatının payı"
+    "Ekim ihracat, ithalat ve dış ticaret açığı (açıklandıktan sonra TÜİK ya da Ticaret Bakanlığından)",
+    "Enerji ve altın hariç açık (hesabı kendiniz yapın)"
    ],
-   "dikkat": "Bülten çıkmadan rakam yazmayın; yazıyı rakam geldikten sonra tamamlayacak şekilde hazırlayın.",
+   "dikkat": "Rusya ile 100 milyar dolar hedefi niyet beyanıdır; gerçekleşmiş ticaretle karıştırmayın.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "TÜİK Dış Ticaret İstatistikleri bülteni (Ekim 2026)",
-    "UNCTAD ya da Dünya Ticaret Örgütü genel görünüm raporu"
-   ],
-   "atif": []
+    "TÜİK ve Ticaret Bakanlığı dış ticaret bültenleri",
+    "Türkiye-Rusya ticareti için uluslararası bir veri kaynağı"
+   ]
   },
   {
-   "kategori": "Yapay zekâ ve teknoloji",
-   "baslik": "Yapay Zekâ Hisseleri Düşerken Emek Piyasası Ne Hissediyor?",
-   "tez": "Teknoloji hisselerindeki düşüş, yapay zekânın ekonomik etkisi hakkındaki beklentilerin gözden geçirildiğini gösterebilir. Ama asıl soru borsada değil, hangi işlerin ne hızla değiştiğindedir.",
-   "kanca": "Küresel borsalarda yapay zekâ hisseleri sert düştü; aynı günlerde Apple’ın kendi yapay zekâ ajanını geliştirdiği haberi çıktı.",
-   "acilis": "Bir muhasebecinin ya da çağrı merkezi çalışanının gün içi iş listesiyle başlayın.",
-   "zaman": "Piyasa dalgalanırken",
+   "kategori": "Dış ticaret ve döviz piyasası",
+   "baslik": "ABD'nin Yeni Tarife Önerileri Türkiye İhracatına Ne Yapar?",
+   "tez": "Tarife haberi çoğunlukla ABD içi enflasyon yönüyle okunuyor. Türkiye için asıl soru, hangi ürün gruplarının ve rakip ülkelerin etkilendiği ve ihracatçının göreli konumunun nasıl değiştiğidir.",
+   "zaman": "Bu hafta, öneriler netleşirken",
    "gundem": [
     {
      "tur": "haber",
-     "metin": "Küresel borsalarda sert satış: Yapay zeka hisseleri çakıldı",
-     "kaynak": "Dünya Gazetesi",
-     "tarih": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPXzVrcmlSVG1ENTQwcENZZkxCTEMtR2JLRTJqMVVXS3B3S2FPR0VLeGN6OXp1R0tqdG5XX0d0d1otN0hxeklBS2lnaFVad1o1ekxtcGxCR0lDZnhfamNWZDgwdHRLZmVqWXNXQ3dpaFZUNnhkMFZ0OEhBSnlORG1wRmh0bDFUMDBuNTdhTEJWVExCQ1hiVEdhNWRrUk5DRDIteG1TUw?oc=5"
+     "metin": "ABD'nin yeni tarife önerileri ülkede enflasyon, küresel ticarette gerilim riskini artırıyor",
+     "kaynak": "AA Ekonomi",
+     "tarih": "2026-11-28",
+     "link": "https://www.aa.com.tr/tr/ekonomi/abdnin-yeni-tarife-onerileri-ulkede-enflasyon-kuresel-ticarette-gerilim-riskini-artiriyor/4141201"
     },
     {
      "tur": "haber",
-     "metin": "Apple, Mac bilgisayarları kontrol edebilen kendi yapay zeka ajanını geliştiriyor",
-     "kaynak": "Webrazzi",
-     "tarih": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd090NEFXMlQtM2Zub0hLU0YzN2VsaTZHOFp6WlQ5RmdPNGtOdDdqbEM0aWV6ZERnNHhtLWxJUWdUTHFNTG1OYmZyVFVGUnUwZnh1MzNrNndiYTVVRHZic3ZNbDRnX2d3MGVOcWF3SGxkeF92WE5EbGFtOGV6cThleGoyd0pBUk90c0VBUUJ3WU9vR2t2TEthLU9JaFJ6d0paRksyVmlmVm1QWE5LaVU2SDl3?oc=5"
-    },
-    {
-     "tur": "haber",
-     "metin": "Yapay zeka ajanları iş dünyasının yeni oyuncusu oldu",
-     "kaynak": "Habertürk",
-     "tarih": "2026-11-12",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUTNsSzIyS2liQTBCbXIxeDR3MGlsY0o4WDAxNDVOc2tZUVZUY2U5bWRKQmV1dVAwZDB5dms4YkI3aC13MHdwZ29WME9Kb2xMWXhsdlBBX1lxM2s4RHZfVWtLZWRmVGo1Nl9LMUhwUGppcC1YaEtLZHE1MjJ5Nll2LWhZV1lveUNNNUtZUnBlYUFZNGdYXzlTVHpB?oc=5"
+     "metin": "Türk çoraplarının ihracat rotasında Avrupa ülkeleri ve ABD yer aldı",
+     "kaynak": "AA Ekonomi",
+     "tarih": "2026-11-28",
+     "link": "https://www.aa.com.tr/tr/ekonomi/turk-coraplarinin-ihracat-rotasinda-avrupa-ulkeleri-ve-abd-yer-aldi/4141195"
     }
    ],
+   "kanca": "Tarife listesini Türkiye'nin ABD'ye ihracat sepetiyle üst üste koyun.",
+   "acilis": "Bir tekstil ihracatçısının fiyat teklifini yeniden hesaplamasını anlatarak girin.",
    "rakam": [
-    "Türkiye’de yapay zekâdan etkilenmesi beklenen meslek payı (ILO ya da OECD çalışması)",
-    "Yapay zekâ kullanan işletme oranı (TÜİK Bilişim Teknolojileri Kullanım Araştırması)"
+    "Türkiye'nin ABD'ye ihracatında payı en yüksek ürün grupları (resmî veriden)",
+    "Önerilen tarife oranları (haberi ve resmî metni açıp yazın)"
    ],
-   "dikkat": "Borsa düşüşünden yapay zekânın 'bittiği' sonucunu çıkarmayın; tek günlük hareketten genel sonuç yazmayın.",
+   "dikkat": "Öneri ile yürürlüğe girmiş tarifeyi karıştırmayın.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "ILO ya da OECD yapay zekâ ve istihdam çalışması"
-   ],
-   "atif": []
+    "ABD ticaret temsilciliği ya da Beyaz Saray duyurusu",
+    "Uluslararası bir ticaret çalışması (WTO ya da OECD)"
+   ]
   },
   {
-   "kategori": "Yapay zekâ ve teknoloji",
-   "baslik": "Çocuğun Ekranında Yapay Zekâ: Koruma Araçları Yeterince Anlaşılıyor mu?",
-   "tez": "Çocukları çevrim içi istismara karşı koruyan yapay zekâ araçları gelişirken, ailelerin bu araçların neyi gördüğünü ve neyi göremediğini bilmesi gerekir. Teknoloji, ailenin ilgisinin yerini almaz.",
-   "kanca": "Dünya Çocuk Hakları Günü’nün hemen ardından OpenAI çocukların çevrim içi istismarını tespit etmek için yeni bir yapay zekâ aracı duyurdu.",
-   "acilis": "Bir çocuğun akşam ekran başında geçirdiği saatleri sormakla başlayın.",
+   "kategori": "Dış ticaret ve döviz piyasası",
+   "baslik": "Dış Borç Verisi ve Fon Çıkışlarının Yavaşlaması",
+   "tez": "Dış borç stokunun büyüklüğünden çok vade yapısı ve kimin borçlandığı önemlidir. Finansal İstikrar Raporu'ndaki 'fon çıkışları yavaşladı' tespitiyle birlikte okunursa tablo tamamlanır.",
+   "zaman": "Bu hafta",
+   "gundem": [
+    {
+     "tur": "yayin",
+     "metin": "Türkiye Dış Borç İstatistikleri (2026 III. Çeyrek)",
+     "kaynak": "TCMB",
+     "tarih": "2026-11-20",
+     "link": "https://www.tcmb.gov.tr/wps/wcm/connect/tr/tcmb+tr/main+menu/istatistikler/odemeler+dengesi+ve+ilgili+istatistikler/dis+borc"
+    },
+    {
+     "tur": "haber",
+     "metin": "TCMB Finansal İstikrar Raporu: Bankacılık sermayesini korurken fon çıkışları yavaşladı",
+     "kaynak": "BloombergHT",
+     "tarih": "2026-11-27",
+     "link": "https://www.bloomberght.com/tcmb-finansal-istikrar-raporu-bankacilik-sermayesini-korurken-fon-cikislari-yavasladi-3795927"
+    }
+   ],
+   "kanca": "Dış borcu 'milyar dolar' diye değil, kısa vadeli payı ve rezervle ilişkisiyle anlatın.",
+   "acilis": "Büyüklüğü değil vadeyi sorun: önümüzdeki on iki ayda ne ödenecek?",
+   "rakam": [
+    "Toplam dış borç stoku ve kısa vadeli payı (TCMB tablosundan alın)",
+    "Kısa vadeli borcun rezervlere oranı (hesabı kendiniz yapın)"
+   ],
+   "dikkat": "Raporun cümlesini kendi yorumunuz gibi sunmayın; hangi cümlenin TCMB'ye ait olduğunu yazın.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
+   "atif_gerekli": [
+    "TCMB Finansal İstikrar Raporu",
+    "TCMB dış borç istatistikleri tablosu"
+   ]
+  },
+  {
+   "kategori": "Dış ticaret ve döviz piyasası",
+   "baslik": "İran Gazı 2032'ye Uzadı: Enerji Faturası Dış Dengeyi Nasıl Belirliyor?",
+   "tez": "Enerji ithalatı cari dengenin en oynak kalemlerinden biridir. Uzun vadeli doğal gaz anlaşması fiyat riskini nasıl dağıtıyor ve kime bağımlılık yaratıyor sorusu dış denge tartışmasının merkezindedir.",
    "zaman": "Bu hafta",
    "gundem": [
     {
      "tur": "haber",
-     "metin": "Emine Erdoğan'dan Dünya Çocuk Hakları Günü mesajı",
-     "kaynak": "AA Güncel",
-     "tarih": "2026-11-20",
-     "link": "https://www.aa.com.tr/tr/gundem/emine-erdogandan-dunya-cocuk-haklari-gunu-mesaji/4131995"
+     "metin": "Türkiye, İran'la gaz anlaşmasını 2032'ye kadar uzattı",
+     "kaynak": "BloombergHT",
+     "tarih": "2026-11-27",
+     "link": "https://www.bloomberght.com/turkiye-iranla-gaz-anlasmasini-2032ye-kadar-uzatti-3795930"
+    },
+    {
+     "tur": "haber",
+     "metin": "Rusya'dan jet yakıtı ihracat yasağına uzatma",
+     "kaynak": "BloombergHT",
+     "tarih": "2026-11-27",
+     "link": "https://www.bloomberght.com/rusya-dan-jet-yakiti-ihracat-yasagina-uzatma-3795926"
     }
    ],
+   "kanca": "Enerji faturasını ihracat gelirleriyle yan yana koyun.",
+   "acilis": "Evin doğal gaz faturasından başlayıp ülke ölçeğine çıkın.",
    "rakam": [
-    "Türkiye’de çocukların internet kullanım yaşı ve süresi (TÜİK Çocuk ve Bilişim araştırması)",
-    "Çevrim içi istismar bildirim sayıları (ilgili kurumun resmî verisi)"
+    "Enerji ithalatı faturası ve cari açıktaki payı (resmî veriden)",
+    "Doğal gaz ithalatında İran ve Rusya payı (resmî kaynaktan teyit edin)"
    ],
-   "dikkat": "Konu hassas: istismar ayrıntılarına girmeyin, mağdur ve kişi isimlerine yer vermeyin. Aracın başarı oranını şirket açıklamasından teyitsiz yazmayın.",
+   "dikkat": "Anlaşmanın fiyat ve miktar şartları haberde yoksa tahmin yürütmeyin.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "UNICEF ya da ITU çocukların çevrim içi korunması raporu",
-    "OpenAI’nin duyurusu (birincil kaynak)"
-   ],
-   "atif": []
+    "EPDK doğal gaz raporu",
+    "Uluslararası Enerji Ajansı doğal gaz raporu"
+   ]
   },
   {
-   "kategori": "Toplum ve aile",
-   "baslik": "25 Kasım’da Kadına Yönelik Şiddet: Rakam mı, Hikâye mi?",
-   "tez": "Şiddet haberleri tek tek olay olarak okunur; yaygınlığı ancak düzenli ve karşılaştırılabilir verilerle görebiliriz. Yazı, veri okuryazarlığı üzerinden toplumsal farkındalığı güçlendirebilir.",
-   "kanca": "25 Kasım, Kadına Yönelik Şiddete Karşı Uluslararası Mücadele Günü.",
-   "acilis": "Bir haber başlığının arkasındaki kayıt sürecini (kim bildiriyor, kim sayıyor) anlatarak açın.",
-   "zaman": "24-25 Kasım",
+   "kategori": "Kalkınma",
+   "baslik": "İl Bazında GSYH Açıklanırken: Bölgesel Eşitsizlik Kapanıyor mu?",
+   "tez": "Ulusal büyüme oranı iller arası farkı göstermez. Kişi başına gelirin illere göre dağılımı kalkınma politikasının nerede başarılı olduğunu söyler.",
+   "zaman": "9 Aralık il bazında GSYH öncesi",
    "gundem": [
     {
      "tur": "tarih",
-     "metin": "Kadına Yönelik Şiddete Karşı Uluslararası Mücadele Günü",
-     "tarih": "2026-11-25"
+     "metin": "İl Bazında Gayrisafi Yurt İçi Hasıla",
+     "tarih": "2026-12-09"
+    },
+    {
+     "tur": "tarih",
+     "metin": "Girişimcilik ve İş Demografisi",
+     "tarih": "2026-12-16"
     }
    ],
+   "kanca": "Veri günü en yüksek ve en düşük gelirli beş ili karşılaştıran bir yazı.",
+   "acilis": "Okura kendi ilinin sırasını sorun, sonra nedenini açın.",
    "rakam": [
-    "Türkiye’de kadına yönelik şiddet araştırması sonuçları (Hacettepe Üniversitesi / ilgili bakanlık)",
-    "Karşılaştırma için Avrupa Birliği ya da BM Kadın verisi"
+    "İl bazında kişi başına GSYH, en yüksek ve en düşük il (açıklandıktan sonra TÜİK'ten)"
    ],
-   "dikkat": "Çok hassas konu: tek bir olaya dayanmayın, mağdur ve ailesinin kimliğini yazmayın, sansasyonel dilden kaçının.",
+   "dikkat": "İl verisi gecikmeyle gelir; güncel durum gibi sunmayın.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "UN Women ya da BM Nüfus Fonu şiddet raporu",
-    "Türkiye’de Kadına Yönelik Şiddet Araştırması"
-   ],
-   "atif": []
+    "TÜİK il bazında GSYH bülteni",
+    "Bölgesel kalkınma üzerine bir akademik çalışma"
+   ]
   },
   {
-   "kategori": "Gençlik ve eğitim",
-   "baslik": "Öğretmenler Günü’nde Mesleğin Çekiciliğini Ölçmek",
-   "tez": "Öğretmenliğin çekiciliği yalnızca maaşla değil; çalışma koşulları, mesleki gelişim ve toplumsal saygınlıkla ölçülür. Günün anlamını bu göstergelerle konuşmak, kutlama dilinden daha kalıcıdır.",
-   "kanca": "24 Kasım Öğretmenler Günü; aynı günlerde memur maaş zammı tartışmaları öğretmen, polis ve hemşire maaşlarına odaklanıyor.",
-   "acilis": "Bir öğretmenin sınıfta geçen ve sınıf dışında geçen saatlerini sayarak açın.",
-   "zaman": "23-24 Kasım",
+   "kategori": "Kalkınma",
+   "baslik": "Konut Satışları ve İnşaat Maliyetleri: Fiyat Kiraya Nasıl Yansıyor?",
+   "tez": "Konut fiyatını iten güç maliyetten çok talep ve finansmana bağlı olabilir. İnşaat maliyet endeksi ile satış istatistiklerini yan yana okumak bu ayrımı görünür kılar.",
+   "zaman": "9 ve 17 Aralık veri günleri",
+   "gundem": [
+    {
+     "tur": "tarih",
+     "metin": "İnşaat Maliyet Endeksi",
+     "tarih": "2026-12-09"
+    },
+    {
+     "tur": "tarih",
+     "metin": "Konut ve İş Yeri Satış İstatistikleri",
+     "tarih": "2026-12-17"
+    }
+   ],
+   "kanca": "Maliyet artışı ile satış fiyatı artışını aynı grafikte karşılaştırın.",
+   "acilis": "Kiracı ile ev sahibinin aynı verinin iki ucunda durduğunu anlatarak girin.",
+   "rakam": [
+    "İnşaat maliyet endeksinin yıllık değişimi ve aylık konut satışları (açıklandıktan sonra TÜİK'ten)"
+   ],
+   "dikkat": "Konut fiyatı için tek endeks kullanmayın; hangisini seçtiğinizi yazın.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
+   "atif_gerekli": [
+    "TÜİK Konut Birim Fiyatları Endeksi",
+    "TCMB Konut Fiyat Endeksi"
+   ]
+  },
+  {
+   "kategori": "Yapay zekâ ve teknoloji",
+   "baslik": "Yapay Zekâ Zaman Kazandırıyor, Kazanç Kime Gidiyor?",
+   "tez": "Çalışanların yapay zekâ kullanımı yaygınlaştıkça asıl soru verimlilik kazancının ücrete mi, kâra mı, yoksa kısalan çalışma süresine mi yansıyacağıdır.",
+   "zaman": "Bu hafta",
    "gundem": [
     {
      "tur": "haber",
-     "metin": "Ocak 2027 memur zammı belli oluyor: Polis, öğretmen ve hemşire maaşları 100 bin TL'yi aşacak",
-     "kaynak": "Ekonomim",
-     "tarih": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPS25LeEFyVHpvOXZJMDFlOGdJM1IzczlTSFhONmg2THdTMEozSmVwREduTG91VmNJZnBUSDlWMUxobWViT1ZKRjZiUHdaRVpDUXlfd1RkQk4xVkd0YXI0OVA0S3ptbjd3MzNCRm9uUUFMLTNxS25ycy1HOVNjRnlEbzZ4Z3lzQ2V6NnNCa3VBdEliZG5kT01HazVIZWlxSDNoeFBLS2ktMTlOTHBPeTZLNjhwU19hZ29MSGRvR3ZfQ1V4TzZSUDRlazhUcmNvYlZ2cmsxVF9XcUQ0YXNYVWxOeDV3?oc=5"
+     "metin": "AMB: Avrupalı çalışanların yapay zeka kullanımı ABD ile aynı seviyede",
+     "kaynak": "BloombergHT",
+     "tarih": "2026-11-27",
+     "link": "https://www.bloomberght.com/amb-avrupali-calisanlarin-yapay-zeka-kullanimi-abd-ile-ayni-seviyede-3795952"
+    },
+    {
+     "tur": "haber",
+     "metin": "Yapay zeka çalışanlara zaman kazandırıyor, peki şirketler ne kazanıyor? “Latte verimliliği” tartışması büyüyor…",
+     "kaynak": "Marketing Türkiye",
+     "tarih": "2026-11-28",
+     "link": "https://www.marketingturkiye.com.tr/haberler/yapay-zeka-calisanlara-zaman-kazandiriyor-peki-sirketler-ne-kazaniyor-latte-verimliligi-tartismasi-buyuyor/"
+    }
+   ],
+   "kanca": "Kazanılan zamanın nereye gittiğini soran bir emek iktisadı yazısı.",
+   "acilis": "Bir çalışanın günde kazandığı yarım saatin kime ait olduğunu sorarak başlayın.",
+   "rakam": [
+    "AMB çalışmasındaki kullanım oranları (haberi ve kaynak raporu açıp yazın)",
+    "Türkiye'de yapay zekâ kullanan işyeri payı (resmî kaynaktan teyit edin)"
+   ],
+   "dikkat": "Yapay zekânın istihdamı azaltacağı ya da artıracağı yönünde kesin hüküm vermeyin.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
+   "atif_gerekli": [
+    "AMB çalışmasının kendisi",
+    "Yapay zekâ ve ücretler üzerine bir akademik çalışma"
+   ]
+  },
+  {
+   "kategori": "Gençlik ve eğitim",
+   "baslik": "Çocukların Bilişim Kullanımı ve Eğitim Harcamasının Yükü",
+   "tez": "Çocukların dijital kullanımı ile hanelerin eğitim harcaması aynı hanenin iki bütçe baskısıdır. Erişim eşitsizliği eğitimde fırsat eşitliğini de belirler.",
+   "zaman": "7 Aralık eğitim harcamaları verisiyle",
+   "gundem": [
+    {
+     "tur": "yayin",
+     "metin": "TÜİK: Çocuklarda Bilişim Teknolojileri Kullanım Araştırması (2026)",
+     "kaynak": "TÜİK",
+     "tarih": "2026-11-20",
+     "link": "https://data.tuik.gov.tr/Bulten/Index?p=Çocuklarda-Bilişim-Teknolojileri-Kullanım-Araştırması-2026-58136&dil=1"
     },
     {
      "tur": "tarih",
-     "metin": "Öğretmenler Günü",
-     "tarih": "2026-11-24"
-    },
-    {
-     "tur": "tarih",
-     "metin": "Eğitim Harcamaları İstatistikleri (2025)",
+     "metin": "Eğitim Harcamaları İstatistikleri",
      "tarih": "2026-12-07"
     }
    ],
+   "kanca": "İki veriyi birlikte okuyup hane bütçesinde eğitim ve cihaz harcamasını konuşun.",
+   "acilis": "Bir çocuğun ödevi için ihtiyaç duyduğu cihaz ve bağlantıyı sorarak girin.",
    "rakam": [
-    "Öğretmen başına öğrenci sayısı (MEB ya da OECD Education at a Glance)",
-    "Öğretmen maaşlarının OECD ortalamasıyla karşılaştırılması"
+    "Çocukların internet ve cihaz kullanım oranları (TÜİK bülteninden alın)",
+    "Hanehalkı eğitim harcamasının payı (7 Aralıkta TÜİK'ten)"
    ],
-   "dikkat": "Maaş zammı ayrıntıları kesinleşmedi; tahmini rakamları kesin gibi yazmayın.",
+   "dikkat": "Ekran süresi konusunda değer yargısı yerine ölçülen kullanımı aktarın.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "OECD Education at a Glance (öğretmen maaşları ve çalışma saatleri)",
-    "OECD TALIS öğretmen araştırması"
-   ],
-   "atif": []
-  },
-  {
-   "kategori": "Gençlik ve eğitim",
-   "baslik": "Genç İşsizliği Hangi Rakamla Okumalı?",
-   "tez": "Genç işsizlik oranı tek başına yanıltıcıdır; okuyan, çalışan, ne çalışan ne okuyan (NEET) gençleri ayrı ayrı görmek gerekir. Doğru gösterge, gencin sistemin neresinde durduğunu anlatır.",
-   "kanca": "Ekim ayı İşgücü İstatistikleri 30 Kasım’da açıklanıyor; Almanya’da gençlerin sokağa çıktığı haberleri gündemde.",
-   "acilis": "Aynı yaşta üç gencin (üniversite öğrencisi, çalışan, ikisi de olmayan) bir günüyle açın.",
-   "zaman": "30 Kasım-1 Aralık",
-   "gundem": [
-    {
-     "tur": "tarih",
-     "metin": "İşgücü İstatistikleri (Ekim 2026)",
-     "tarih": "2026-11-30"
-    },
-    {
-     "tur": "haber",
-     "metin": "Almanya'da gençler yeniden sokaklarda: Başbakan Merz baskı altında",
-     "kaynak": "BBC",
-     "tarih": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfaXdqMWVRNWZ6NkRuSXp1Z29rWkozd2llUVNjbE1OS2tfUk5MNFpsOWVOelAxVmJ5eGhPTl9jLVhDU1ROY0JTTm8zSVFwNlZmVEd2aUFkbHNvN3lISkHSAWNBVV95cUxNTHlER0E5d2JEM3lLSE1iVS02dDVjcHpULVdBQmttLTlONnFubkltbGVDbkpEY0VDc1pIOU9SQWpjS3Q5OFVFNXQyTmt0MTBQTGFQeXlQSFZpMGgzNEc0c1p2YTg?oc=5"
-    },
-    {
-     "tur": "yayin",
-     "metin": "Launch event: Atlas of Global Development 2026 - Fall Edition | Six new stories on hunger, jobs, pollution, and more",
-     "kaynak": "Dünya Bankası",
-     "tarih": "2026-11-20",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWEhHWVkzY1QtY19iREl4Rlo1SDE2anFSQWhoRHN0UFVvNjB3WFNBQl9oN0g2bURtajJHOENBWkVlT1ZiYlQ1Nk9oRVo2MU1CcnJraUhqbGVuME02eXhWUzNDUnZzZmZkV0d2MklseWpxNWpRNDNJd1EtNUFHYjdVbmY4dXhrX08yaUE0WUUwdW9mR0xrOHZBYnE0SXFyZ3JvV2h0VHhtbU1ZR0NMY2cxMlVtVXNBT1oxZUhyN2x0TE9Bbm9LUEM2OA?oc=5"
-    }
-   ],
-   "rakam": [
-    "Genç (15-24) işsizlik oranı ve NEET payı (TÜİK İşgücü İstatistikleri)",
-    "Avrupa Birliği ortalaması ile karşılaştırma (Eurostat)"
-   ],
-   "dikkat": "Bülten gelmeden rakam yazmayın; Almanya haberini yalnızca bağlam için kullanın.",
-   "atif": [
-    {
-     "baslik": "Launch event: Atlas of Global Development 2026 - Fall Edition | Six new stories on hunger, jobs, pollution, and more",
-     "kurum": "Dünya Bankası",
-     "tur": "uluslararası kuruluş",
-     "yil": 2026,
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWEhHWVkzY1QtY19iREl4Rlo1SDE2anFSQWhoRHN0UFVvNjB3WFNBQl9oN0g2bURtajJHOENBWkVlT1ZiYlQ1Nk9oRVo2MU1CcnJraUhqbGVuME02eXhWUzNDUnZzZmZkV0d2MklseWpxNWpRNDNJd1EtNUFHYjdVbmY4dXhrX08yaUE0WUUwdW9mR0xrOHZBYnE0SXFyZ3JvV2h0VHhtbU1ZR0NMY2cxMlVtVXNBT1oxZUhyN2x0TE9Bbm9LUEM2OA?oc=5"
-    }
-   ],
-   "atif_gerekli": [
-    "Eurostat NEET verisi",
-    "ILO Küresel Gençlik İstihdamı Eğilimleri raporu"
+    "TÜİK araştırma bülteni",
+    "Dijital eşitsizlik üzerine bir kurum raporu"
    ]
   },
   {
    "kategori": "Sağlık",
-   "baslik": "Sağlık Bütçesi Komisyondan Geçti: Harcama Neye Gidiyor?",
-   "tez": "Sağlık harcamasının büyüklüğü kadar neye gittiği (koruyucu hizmet mi, hastane mi, ilaç mı) hizmetin niteliğini belirler. Okur için sağlıklı soru 'artış var mı?' değil 'artış nereye gidiyor?'dur.",
-   "kanca": "Sağlık Bakanlığının 2027 bütçesi Plan ve Bütçe Komisyonu’nda kabul edildi; Sağlık Harcamaları İstatistikleri 8 Aralık’ta açıklanıyor.",
-   "acilis": "Bir hastane randevusunun arkasındaki harcama zincirini sadeleştirerek açın.",
-   "zaman": "Bütçe Genel Kurul’a gelirken; 8 Aralık",
+   "baslik": "Sağlık Harcamaları Açıklanırken: Cepten Ödeme Ne Kadar?",
+   "tez": "Sağlık harcamasının GSYH içindeki payı kadar, ne kadarının hanenin cebinden çıktığı önemlidir. Kamu bütçesi ile hane bütçesi arasındaki bu pay erişim eşitsizliğini gösterir.",
+   "zaman": "8 Aralık sağlık harcamaları verisiyle",
    "gundem": [
+    {
+     "tur": "tarih",
+     "metin": "Sağlık Harcamaları İstatistikleri",
+     "tarih": "2026-12-08"
+    },
     {
      "tur": "haber",
-     "metin": "SES, Sağlık Bakanlığı 2027 Yılı Bütçe Teklifine ilişkin değerlendirme raporu yayımladı",
-     "kaynak": "Evrensel",
-     "tarih": "2026-11-16",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZHp4TzlLUEpCRmczb3ZVZ2hNSmJYTXBKMjdQdkhjelpjYnJ2bUEyWllTMlVLbGtoMXdqN3NLclBoT01TbEVFcEZ2WE5VZkJyUlZCWDhQODZsVm1FWFNLeFF5QlEtRElkUmd0b2JWUUJwRWNSYnEyN09tejBfZ3BEMGF2TlE1TG1IcXNJQUZrd3EwbWxweGpzOENLZGJVcDRVRXpPSzdvRlVpUzZCMjVVSXpxUGI5X0tULUdiSTc1SUFHZw?oc=5"
-    },
-    {
-     "tur": "tarih",
-     "metin": "Sağlık Harcamaları İstatistikleri (2025)",
-     "tarih": "2026-12-08"
+     "metin": "Sağlık Bakanlığı’ndan teknolojik müdahale... Obeziteye ‘ritmik’ uyarı",
+     "kaynak": "Hürriyet Gündem",
+     "tarih": "2026-11-28",
+     "link": "https://www.hurriyet.com.tr/gundem/saglik-bakanligindan-teknolojik-mudahale-obeziteye-ritmik-uyari-43393865"
     }
    ],
+   "kanca": "Veri günü kamu ve özel harcama payını gösteren bir açıklayıcı yazı.",
+   "acilis": "Bir hanenin eczane ve muayene harcamasını sorarak ülke düzeyine geçin.",
    "rakam": [
-    "Sağlık harcamasının milli gelire oranı (TÜİK, 8 Aralık bülteni)",
-    "Cepten sağlık harcaması payı (DSÖ ya da OECD)"
+    "Toplam sağlık harcamasının GSYH'ye oranı ve cepten ödeme payı (8 Aralıkta TÜİK'ten)"
    ],
-   "dikkat": "Bütçe rakamını ilgili belgeden teyit edin; haber özetleriyle yetinmeyin.",
+   "dikkat": "Obezite haberi ana konu değil, yalnızca bağlam.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "OECD Health at a Glance (harcama karşılaştırması)",
-    "DSÖ sağlık harcamaları veri tabanı"
-   ],
-   "atif": []
+    "TÜİK sağlık harcamaları bülteni",
+    "OECD sağlık göstergeleri"
+   ]
   },
   {
-   "kategori": "Kalkınma",
-   "baslik": "Aralık Kira Artışı ve Kiracının Hesabı",
-   "tez": "Kira artış oranı yalnızca bir yasal sınır değil; konut piyasasında arz, gelir ve enflasyon beklentilerinin birleştiği noktadır. Kiracı ve ev sahibini aynı tablo üzerinden anlamak, tartışmayı sakinleştirir.",
-   "kanca": "Aralık ayı kira artış oranının ne zaman açıklanacağı soruluyor; oran TÜFE verisine bağlı olarak 3 Aralık’tan sonra netleşiyor.",
-   "acilis": "Aynı apartmanda oturan bir kiracı ile ev sahibinin aylık hesabıyla başlayın.",
-   "zaman": "3-5 Aralık",
+   "kategori": "Toplum ve aile",
+   "baslik": "Sosyal Koruma Harcaması Kime Ulaşıyor?",
+   "tez": "Sosyal koruma harcamasının büyüklüğü kadar, hangi risk grubuna (yaşlılık, hastalık, işsizlik, aile ve çocuk) gittiği önemlidir.",
+   "zaman": "18 Aralık sosyal koruma verisiyle",
    "gundem": [
     {
      "tur": "tarih",
-     "metin": "Tüketici Fiyat Endeksi (TÜFE), Kasım 2026",
-     "tarih": "2026-12-03"
+     "metin": "Sosyal Koruma İstatistikleri",
+     "tarih": "2026-12-18"
     }
    ],
+   "kanca": "Harcamanın risk gruplarına dağılımını gösteren tek grafik temelli bir yazı.",
+   "acilis": "Yaşlılık ve çocuk için ayrılan payı karşılaştırıp 'Bu tercih kimin?' diye sorun.",
    "rakam": [
-    "12 aylık TÜFE ortalaması (TÜİK, kira artışı hesabına temel)",
-    "Hanehalkı gelirinde konut payı (TÜİK Gelir ve Yaşam Koşulları)"
+    "Sosyal koruma harcamasının GSYH payı ve işlevlere dağılımı (18 Aralıkta TÜİK'ten)"
    ],
-   "dikkat": "Yasal sınırlamanın geçerli olup olmadığını güncel mevzuattan kontrol edin; hukuki tavsiye vermeyin.",
+   "dikkat": "Bakanlık açıklamasını istatistikle karıştırmayın.",
+   "dunya": "",
+   "turkiye": "",
+   "atif": [],
    "atif_gerekli": [
-    "Konut ve kira üzerine OECD ya da Dünya Bankası karşılaştırması",
-    "TÜİK Konut Birim Fiyat İstatistikleri"
-   ],
-   "atif": []
-  },
-  {
-   "kategori": "Kalkınma",
-   "baslik": "Gıda Fiyatlarında Yeni Riskler ve Sofranın Hesabı",
-   "tez": "Küresel gıda fiyatları, yerel enflasyonun en az kontrol edilebilen parçasıdır. Okur için anlamlı olan, hangi gıdada dış fiyatların, hangisinde yerel arzın belirleyici olduğunu ayırt etmektir.",
-   "kanca": "Dünya Bankası, 2027 için gıda fiyatlarında üst üste binen şoklara ve yukarı yönlü risklere dikkat çeken bir değerlendirme yayımladı.",
-   "acilis": "Bir pazar sepetindeki ürünleri 'ithal girdili' ve 'yerli girdili' diye ikiye ayırarak açın.",
-   "zaman": "TÜFE açıklanırken (3 Aralık)",
-   "gundem": [
-    {
-     "tur": "yayin",
-     "metin": "Global food prices 2027: overlapping shocks and upside risks",
-     "kaynak": "Dünya Bankası",
-     "tarih": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzZkcmpENUhRLVJYVzBYZm5ncWhUd3M3T1ZfcDZ1YjFtdTc0TGFkUEFXdTVpbWgwOXdxQzF4cUl4d1B0MmY1SDA0akI1Skd2eWVwSnN2WjV5amlZVmx2QkNBbmxYSERQa0ZzZWlyM0h0WjhNeHA1RDkxM2RSa1hWWFAwZFVPUjRyZnlacEZud0NGMmVic0hocU9WNURZU2c1MzRyZVNR?oc=5"
-    },
-    {
-     "tur": "yayin",
-     "metin": "Beverage prices ease as supply prospects improve",
-     "kaynak": "Dünya Bankası",
-     "tarih": "2026-11-19",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOURYUVNRMkdSdnluU0RhckRXRHdreUZUNlVmLTZiTlpncHBOX0U0dVhUS3dzUUlEbnF0MzdCSmpGYXZJbG1hSmpkc3Y3aEVCWkxUNC1YbnkyVTNDOUtiS3Y0UUNBSFlwVTZXZ2h6akNRTnpFZS1kb2dsaEtsZU9FRElTNHhRYUZpQnZrWXFPMzNSZw?oc=5"
-    },
-    {
-     "tur": "tarih",
-     "metin": "Tüketici Fiyat Endeksi (TÜFE), Kasım 2026",
-     "tarih": "2026-12-03"
-    }
-   ],
-   "rakam": [
-    "Gıda enflasyonunun TÜFE içindeki payı (TÜİK)",
-    "Dünya Bankası gıda fiyat endeksindeki değişim (yayından teyit edin)"
-   ],
-   "dikkat": "Dünya Bankası yazısının tam metnini açıp rakamı oradan alın; başlıktan çıkarım yapmayın.",
-   "atif": [
-    {
-     "baslik": "Global food prices 2027: overlapping shocks and upside risks",
-     "kurum": "Dünya Bankası",
-     "tur": "uluslararası kuruluş",
-     "yil": 2026,
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzZkcmpENUhRLVJYVzBYZm5ncWhUd3M3T1ZfcDZ1YjFtdTc0TGFkUEFXdTVpbWgwOXdxQzF4cUl4d1B0MmY1SDA0akI1Skd2eWVwSnN2WjV5amlZVmx2QkNBbmxYSERQa0ZzZWlyM0h0WjhNeHA1RDkxM2RSa1hWWFAwZFVPUjRyZnlacEZud0NGMmVic0hocU9WNURZU2c1MzRyZVNR?oc=5"
-    }
-   ],
-   "atif_gerekli": [
-    "FAO Gıda Fiyat Endeksi"
+    "TÜİK sosyal koruma bülteni",
+    "Eurostat ESSPROS karşılaştırması"
    ]
   }
  ]
